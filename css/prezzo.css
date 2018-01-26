@@ -105,17 +105,21 @@ li > img {
 .container-social > p {
 	padding-top: 10px;
 }
-@media screen and (min-width: 995px) , screen and (max-width: 1200px) {
-.article{
-	background-color: rgba(243, 241, 234, .9);
-	height: 455px;
-	margin-bottom: 15px;
+
+.width-line{
+	width: 90%;
 }
 
 .article > .input-group {
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 146px;
+}
+
+@media screen and (min-width: 995px) , screen and (max-width: 1200px) {
+.article{
+	background-color: rgba(243, 241, 234, .9);
+	height: 455px;
+	margin-bottom: 15px;
 }
 }
 
@@ -126,11 +130,6 @@ li > img {
 	margin-bottom: 15px;
 	padding-bottom: 15px;
 }
-.article > .input-group {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 0;
-}
 }
 
 @media screen and (min-width: 1200px) { 
@@ -138,12 +137,6 @@ li > img {
 	background-color: rgba(243, 241, 234, .9);
 	height: 423px;
 	margin-bottom: 15px;
-}
-
-.article > .input-group {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 146px;
 }
 }
 
