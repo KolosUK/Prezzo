@@ -57,7 +57,7 @@ i{
 }
 
 .container-contant{
-	background-image: url(https://www.just-eat.ie/takeaways/assets/themes/base/images/en_ie/cuisines/home/large_pizza.gif);
+	background-image: url(../img/img-for-prezzo/tre-gusti-1180x850.jpg);
 	width: 99%;
 	background-position: center;
     background-repeat: no-repeat;
@@ -76,11 +76,6 @@ hr{
 .article > p{
     padding-left: 15px;
     padding-right: 10px;
-}
-
-.article > .input-group {
-	padding-left: 15px;
-    padding-right: 15px;
 }
 
 img{
@@ -116,6 +111,12 @@ li > img {
 	height: 455px;
 	margin-bottom: 15px;
 }
+
+.article > .input-group {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 146px;
+}
 }
 
 @media screen and (max-width: 990px) { 
@@ -125,6 +126,11 @@ li > img {
 	margin-bottom: 15px;
 	padding-bottom: 15px;
 }
+.article > .input-group {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0;
+}
 }
 
 @media screen and (min-width: 1200px) { 
@@ -132,6 +138,12 @@ li > img {
 	background-color: rgba(243, 241, 234, .9);
 	height: 423px;
 	margin-bottom: 15px;
+}
+
+.article > .input-group {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 146px;
 }
 }
 
