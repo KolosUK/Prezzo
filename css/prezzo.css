@@ -1,0 +1,137 @@
+body{
+	background-image: url(../img/img-for-prezzo/background-slice.jpg);
+	font-family: 'UniversLTW01-47LightCn', helvetica, arial, sans-serif;
+}
+
+textarea{
+	resize: none;
+}
+
+input{
+	font-family: 'UniversLTW01-47LightCn', helvetica, arial, sans-serif;
+}
+
+textarea:focus, input:focus{
+    border-color: #D68A69 !important;
+}
+
+.copy-input{
+	height: 50px;
+}
+
+.btn-copy{
+	padding-right: 37px;
+    height: 50px;
+    border: none;
+    background-color: #D68A69;
+}
+
+.btn-copy > i {
+	color: white;
+	outline: none;
+}
+
+.btn-copy:hover {
+	background-color: #B97050;
+}
+.container-social{
+	background-color: rgba(243, 241, 234, .9);
+    padding: 15px;
+    padding-bottom: 10px;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.position-center{
+	text-align: center;
+}
+
+i{
+	color: black;
+	cursor: pointer;
+}
+
+.container-white{
+	background-color: white;
+	height: 100vh;
+}
+
+.container-contant{
+	background-image: url(https://www.just-eat.ie/takeaways/assets/themes/base/images/en_ie/cuisines/home/large_pizza.gif);
+	width: 99%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+hr{
+	border: 1px solid white;
+}
+
+.header{
+	padding-top: 15px;
+}
+
+.article > p{
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.article > .input-group {
+	padding-left: 15px;
+    padding-right: 15px;
+}
+
+img{
+    width: 49%;
+}
+
+.form-control{
+	font-size: 20px;
+}	
+
+li > img {
+	width: 30px;
+}
+
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
+    margin-left: -15px;
+}
+
+.form-control{
+	border-radius: 0;
+}
+
+.btn{
+	border-radius: 0;
+}
+
+.container-social > p {
+	padding-top: 10px;
+}
+@media screen and (min-width: 995px) , screen and (max-width: 1200px) {
+.article{
+	background-color: rgba(243, 241, 234, .9);
+	height: 455px;
+	margin-bottom: 15px;
+}
+}
+
+@media screen and (max-width: 990px) { 
+.article{
+	background-color: rgba(243, 241, 234, .9);
+	height: auto;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+}
+
+@media screen and (min-width: 1200px) { 
+.article{
+	background-color: rgba(243, 241, 234, .9);
+	height: 423px;
+	margin-bottom: 15px;
+}
+}
+
