@@ -1,6 +1,7 @@
 body{
 	background-image: url(../img/img-for-prezzo/background-slice.jpg);
 	font-family: 'UniversLTW01-47LightCn', helvetica, arial, sans-serif;
+	height: 100%;
 }
 
 textarea{
@@ -23,7 +24,7 @@ textarea:focus, input:focus{
 	padding-right: 37px;
     height: 50px;
     border: none;
-    background-color: #D68A69;
+    background-color: black;
 }
 
 .btn-copy > i {
@@ -32,10 +33,10 @@ textarea:focus, input:focus{
 }
 
 .btn-copy:hover {
-	background-color: #B97050;
+	background-color: black;
 }
 .container-social{
-	background-color: rgba(243, 241, 234, .9);
+	background-color: rgba(255,102,51, .8);
     padding: 15px;
     padding-bottom: 10px;
     outline: none;
@@ -53,16 +54,15 @@ i{
 
 .container-white{
 	background-color: white;
-	height: 100vh;
 }
 
 .container-contant{
-	background-image: url(../img/img-for-prezzo/tre-gusti-1180x850.jpg);
+	background-image: url(../img/img-for-prezzo/Refer-a-friend.jpg);
 	width: 99%;
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: calc(100vh - 68px);
 }
 
 hr{
@@ -79,7 +79,7 @@ hr{
 }
 
 img{
-    width: 49%;
+    width: 47%;
 }
 
 .form-control{
@@ -115,28 +115,81 @@ li > img {
     padding-right: 15px;
 }
 
-@media screen and (min-width: 995px) , screen and (max-width: 1200px) {
 .article{
-	background-color: rgba(243, 241, 234, .9);
-	height: 455px;
+	background-color: rgba(255,102,51,.8);
 	margin-bottom: 15px;
+	height: 150px;
+	color: white;
 }
+
+.about > p{
+	padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 10px;3
+}
+
+small {
+	color: white;
+}
+
+.list-inline>li{
+	padding: 0;
+}
+ 
+ header{
+ 	background: white;
+ }
+ li > a > img{
+ 	width: 30px;
+ }
+
+ li > div> a > img{
+ 	width: 30px;
+ }
+
+ li > img {
+ 	width: 30px;
+ 	cursor: pointer;
+ }
+
+ .container-social > p {
+ 	color: white;
+ }
+
+ li{
+ 	margin-right: 10px;
+ }
+
+ .position-container{
+ 	padding-top: 20px;
+ }
+
+.logo{
+	width: 150px;
+}
+ @media screen and (min-width: 995px) , screen and (max-width: 1200px) {
+	.about{
+	background-color: rgba(0,153,153,.8);
+	height: 290px;
+	color: white;
+}
+
 }
 
 @media screen and (max-width: 990px) { 
-.article{
-	background-color: rgba(243, 241, 234, .9);
+	.about{
+	background-color: rgba(0,153,153,.8);
 	height: auto;
-	margin-bottom: 15px;
-	padding-bottom: 15px;
+	color: white;
+	padding-bottom: 1px;
+	margin-bottom: 10px;
 }
 }
 
 @media screen and (min-width: 1200px) { 
-.article{
-	background-color: rgba(243, 241, 234, .9);
-	height: 423px;
-	margin-bottom: 15px;
+.about{
+	background-color: rgba(0,153,153,.8);
+	height:258px;
+	color: white;
 }
 }
-
