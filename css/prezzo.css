@@ -78,8 +78,9 @@ hr{
     padding-right: 10px;
 }
 
-img{
-    width: 47%;
+.advertisment{
+	height: calc(100vh - 540px);
+    max-width: 80%;
 }
 
 .form-control{
