@@ -36,7 +36,7 @@ textarea:focus, input:focus{
 	background-color: black;
 }
 .container-social{
-	background-color: rgb(255,102,51);
+	background-color: #009999;
     padding: 15px;
     padding-bottom: 10px;
     outline: none;
@@ -179,6 +179,7 @@ small {
 .js-textareacopybtn {
 	cursor: pointer;
 }
+
  @media screen and (min-width: 995px) , screen and (max-width: 1200px) {
 	.about{
 	background-color: rgb(0,153,153);
