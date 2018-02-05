@@ -183,6 +183,7 @@ small {
 .size-text{
 	padding-top: 1px;
 	color: white;
+	background-color: black;
 }
 
  @media screen and (min-width: 995px) , screen and (max-width: 1200px) {
