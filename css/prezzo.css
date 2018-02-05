@@ -169,7 +169,7 @@ small {
     width: 40px;
     height: 40px;
     border: 2px solid black;
-    padding-top: 9px;
+    padding-top: 10px;
 }
 
 .social-button > img {
@@ -180,16 +180,21 @@ small {
 	cursor: pointer;
 }
 
+.size-text{
+	padding-top: 1px;
+	color: white;
+}
+
  @media screen and (min-width: 995px) , screen and (max-width: 1200px) {
 	.about{
 	background-color: rgb(0,153,153);
-	height: 292px;
+	height: 283px;
 	color: white;
 }
 
 .white-block {
     background-color: white;
-    height: calc(100vh - 580px);
+    height: calc(100vh - 590px);
 }
 }
 
@@ -217,6 +222,6 @@ small {
 
 .white-block{
 	background-color: white;
-	height: calc(100vh - 540px);
+	height: calc(100vh - 560px);
 }
 }
