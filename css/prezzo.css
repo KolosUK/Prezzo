@@ -6,15 +6,66 @@ body{
 
 textarea{
 	resize: none;
-}
-
-input{
-	font-family: 'UniversLTW01-47LightCn', helvetica, arial, sans-serif;
+	text-align: center;
 }
 
 textarea:focus, input:focus{
     border-color: #D68A69 !important;
 }
+
+
+ @font-face {
+    font-family: Gloss_And_Bloom; /* Имя шрифта */
+    src: url(Gloss_And_Bloom.ttf); /* Путь к файлу со шрифтом */
+   }
+
+h3,span{
+   font-family: Gloss_And_Bloom;
+ }
+
+ @font-face {
+    font-family: Biko_Bold; /* Имя шрифта */
+    src: url(Biko_Bold.otf); /* Путь к файлу со шрифтом */
+   }
+
+ h2,h4{
+   font-family: Biko_Bold;
+ }
+
+.social > h4{
+   font-family: Biko_Bold;
+}
+@font-face {
+    font-family: Biko_Regular; /* Имя шрифта */
+    src: url(Biko_Regular.otf); /* Путь к файлу со шрифтом */
+   }
+
+ p, input, textarea, .fontBikoRegular{
+   font-family: Biko_Regular;
+ }
+
+.social > p{
+ 	font-family: Biko_Regular;
+}
+ 
+.social{
+	background: #059CA2;
+	padding: 10px;
+	color: white;
+}
+
+.social > h4 {
+	color: white;
+}
+p{
+	font-size: 1rem;
+}
+.logoPosition{
+	margin-top: -2%;
+}
+ .logoPrezzo{
+ 	width: 350px;
+ }
 
 .copy-input{
 	height: 50px;
@@ -43,6 +94,9 @@ textarea:focus, input:focus{
     margin-bottom: 15px;
 }
 
+hgroup{
+    margin-top: -22%;
+}
 .position-center{
 	text-align: center;
 }
@@ -78,16 +132,15 @@ hr{
     padding-right: 10px;
 }
 
-.form-control{
-	font-size: 20px;
-}	
-
+.specialColor{
+	color: #059CA2;
+}
 li > img {
 	width: 30px;
 }
 
 .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
-    margin-left: -15px;
+    margin-left: -27px;
 }
 
 .form-control{
@@ -186,6 +239,10 @@ small {
 	background-color: black;
 }
 
+footer > p{
+	margin-bottom: 0;
+}
+
  @media screen and (min-width: 995px) , screen and (max-width: 1200px) {
 	.about{
 	background-color: rgb(0,153,153);
@@ -196,6 +253,15 @@ small {
 .white-block {
     background-color: white;
     height: calc(100vh - 590px);
+}
+
+.logoName{
+    margin-top: -9%;
+}
+
+.advertising{
+	width: 450px;
+    margin-top: -10%;
 }
 }
 
@@ -212,6 +278,10 @@ small {
 	background-color: white;
 	height: calc(100vh - 535px);
 }
+
+.logoName{
+    margin-top: -18%;
+}
 }
 
 @media screen and (min-width: 1200px) { 
@@ -224,5 +294,14 @@ small {
 .white-block{
 	background-color: white;
 	height: calc(100vh - 560px);
+}
+
+.logoName{
+    margin-top: -7%;
+}
+
+.advertising{
+	width: 500px;
+    margin-top: -10%;
 }
 }
