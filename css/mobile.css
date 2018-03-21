@@ -1,17 +1,21 @@
 @media screen and (max-width: 991px) { 
 	
+	body{
+		background-image: url();
+	}
+
 	footer{
 		position: relative;
 		text-align: center;
 	}
 
 	.logoName {
-    	margin-top: -12%;
+    	margin-top: -18%;
 	}
 
 	.advertising {
     	width: 63%;
-    	margin-top: -9%;
+    	margin-top: -10%;
     	padding-top: -54px;
     	margin-left: 20%;
     	padding-bottom: -17px;
@@ -19,6 +23,11 @@
 
 	.social{
 	    margin-top: 30px;
+	}
+
+	hgroup {
+    	margin-top: -14%;
+    	padding-bottom: 20px;
 	}
 }
 @media screen and (max-width: 767px){ 
@@ -36,7 +45,7 @@
 @media screen and (max-width: 680px){
 
 	.logoName {
-    	margin-top: -15%;
+    	margin-top: -23%;
 	}
 
 	hgroup {
@@ -56,25 +65,29 @@
 	}
 
 	.logoName {
-    	margin-top: -18%;
+    	margin-top: -27%;
 	}
 }
 
 @media screen and (max-width: 450px) { 
 
 	.logoName {
-   		margin-top: -24%;
+   		margin-top: -27%;
 	}
 
 	h2 {
     	font-size: 0.7rem;
+	}
+
+	.logoPrezzo {
+    	width: 380px;
 	}
 }
 
 @media screen and (max-width: 400px) { 
 
 	.logoPrezzo {
-    	width: 280px;
+    	width: 300px;
 	}
 
 	.advertising {
@@ -94,6 +107,13 @@
     	height: 34px;
 	}
 
+	.logoName {
+   		margin-top: -28%;
+	}
+
+	.logoName > strong {
+		font-size: 1em;
+	}
 	.icon-size {
     	width: 32px;
    		margin-bottom: 0;

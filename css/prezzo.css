@@ -9,17 +9,17 @@ textarea{
 	text-align: center;
 }
 
-textarea:focus, input:focus{
-    border-color: #D68A69 !important;
-}
 
+.form-control:focus{
+	border-color: black!important;
+}
 
  @font-face {
     font-family: Gloss_And_Bloom; /* Имя шрифта */
     src: url(Gloss_And_Bloom.ttf); /* Путь к файлу со шрифтом */
    }
 
-h3,span{
+h1,span, .logoName > strong{
    font-family: Gloss_And_Bloom;
  }
 
@@ -31,6 +31,10 @@ h3,span{
  h2,h4{
    font-family: Biko_Bold;
  }
+
+.logoName > strong{
+	font-size: 1.5em;
+}
 
 .social > h4{
    font-family: Biko_Bold;
@@ -46,6 +50,10 @@ h3,span{
 
 .social > p{
  	font-family: Biko_Regular;
+}
+
+.mobile-size{
+	padding-bottom: 20px;
 }
  
 .social{
@@ -63,14 +71,30 @@ p{
 .logoPosition{
 	margin-top: -2%;
 }
- .logoPrezzo{
- 	width: 350px;
- }
+
+.logoPrezzo{
+ 	width: 500px;
+}
+
+.icon-view{
+	background-color: white;
+}
 
 .copy-input{
 	height: 50px;
 }
+ 
+ li > a > img {
+ 	box-shadow: 4px 4px 7px 1px rgba(0,0,0,0.75);
+ }
 
+ 
+ .social-button{
+ 	box-shadow: 4px 4px 7px 1px rgba(0,0,0,0.75)!important;
+ }
+ div > a > img {
+ 	box-shadow: 4px 4px 7px 1px rgba(0,0,0,0.75);
+ }
 .btn-copy{
 	padding-right: 37px;
     height: 50px;
@@ -111,7 +135,6 @@ i{
 }
 
 .container-contant{
-	background-image: url(../img/img-for-prezzo/Refer-a-friend.jpg);
 	width: 99%;
 	background-position: center;
     background-repeat: no-repeat;
@@ -273,7 +296,7 @@ footer > p{
 }
 
 .logoName{
-    margin-top: -9%;
+    margin-top: -14%;
 }
 
 .advertising{
@@ -295,7 +318,7 @@ footer > p{
 }
 
 .logoName{
-    margin-top: -7%;
+    margin-top: -11%;
 }
 
 .advertising{

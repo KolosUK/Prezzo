@@ -14,7 +14,8 @@
   <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/iframe.css"> 
   <link rel="stylesheet" href="css/prezzo.css"> 
- <link rel="stylesheet" href="css/mobile.css"> 
+  <link rel="stylesheet" href="css/mobile.css"> 
+
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
@@ -30,22 +31,128 @@
 <!--  ---Facebook social end---   -->
 <header class="position-center">
 <a href="https://www.prezzorestaurants.co.uk"><img class="logo" src="./img/img-for-prezzo/PrezzoBoxLogo.jpg"></a>  
-</header>
+</header> 
+<!-- <header class="banner" role="banner">
+           <div class="grid-wrapper">
+                <nav class="navigation navigation--primary">
+    <div class="navigation__toggle" style="visibility: visible;">
+        
+        <i class="fa fa-bars open" aria-hidden="true"></i>
+        <i class="fa fa-times close" aria-hidden="true"></i>
+        <div class="open">menu</div>
+        <div class="close mobile-bold">close</div>
+    </div>
+    <ul class="navigation__container">
+        <li class="navigation__item navigation__item--home">
+            <a href="/">
+                
+                <img src="/Static/images/brand/prezzo-box-logo.svg" alt="Back to home page">
+                
+                
+            </a>
+        </li>
+                    <li class="mobile-hidden navigation__item navigation__item--1 js__hide-nav-item navigation__item  navigation__item--hide">
+                        <a href="/menus/">Menus</a>
+                    </li>
+                    <li class="mobile-hidden navigation__item navigation__item--2 js__hide-nav-item navigation__item  navigation__item--hide">
+                        <a href="/find-and-book/">Find and Book</a>
+                    </li>
+                    <li class="mobile-hidden navigation__item navigation__item--3 js__hide-nav-item navigation__item  navigation__item--hide">
+                        <a href="/offers/">Offers</a>
+                    </li>
+                    <li class="mobile-hidden navigation__item navigation__item--4 js__hide-nav-item navigation__item  navigation__item--hide">
+                        <a href="/orderonline/">Delivery</a>
+                    </li>
+                    <li class="mobile-hidden navigation__item navigation__item--5 js__hide-nav-item navigation__item  navigation__item--hide">
+                        <a href="https://orders-prezzo.ordertalk.net/#/">Takeaway</a>
+                    </li>
+                    <li class="mobile-hidden navigation__item navigation__item--6 js__hide-nav-item navigation__item  navigation__item--hide">
+                        <a href="https://offers.prezzorestaurants.co.uk/Default.aspx?CampaignId=8696">SIGN UP</a>
+                    </li>
+    </ul>
+    
+    <input data-name="hiddenCommand" id="command" name="command" type="hidden" value="jsNotRun">
+    <input data-name="hiddenLong" id="txtGeocodeLongitude" name="txtGeocodeLongitude" type="hidden" value="0">
+    <input data-name="hiddenLat" id="txtGeocodeLatitude" name="txtGeocodeLatitude" type="hidden" value="0">
+    
+    <form action="/FindaPrezzoBlock/Index" class="find-and-book__form" data-name="js-geolocation-header-form" id="frmFindaPrezzo" method="post" hidden="">   
+        <div class="find-and-book__search">
+        
+            <label for="txtAddress" class="find-and-book__label">
+                Find a Prezzo
+            </label>
+        
+            <input class="find-and-book__address-field" data-name="js-geolocation" id="txtAddress" name="txtAddress" onkeyup="FindCoordinates(this.className);" placeholder="Enter your postcode or town" type="text" value="" autocomplete="off">
+        
+        
+            <button type="submit" id="btnSearch" formmethod="post" role="button" class="find-and-book_go-btn">Go</button>
+        
+        
+            <button type="button" id="btnNearestMob" onclick="javascript: GetLocation();" class="find-and-book__link--mob">Nearest</button>
+        
+            <div class="find-and-book__nearest">
+                <button type="button" id="btnNearest" onclick="javascript: GetLocation();" class="find-and-book__link--desktop">
+                    <span>Nearest</span>
+                </button>
+            </div>
+            <input data-name="hiddenCommand" id="command" name="command" type="hidden" value="jsNotRun">
+            <input data-name="hiddenLong" id="txtGeocodeLongitude" name="txtGeocodeLongitude" type="hidden" value="0">
+            <input data-name="hiddenLat" id="txtGeocodeLatitude" name="txtGeocodeLatitude" type="hidden" value="0">
+        </div>
+    </form>
+    <div class="desktop-hidden marker">
+        <i class="fa fa-map-marker" onclick="javascript: GetLocation();" aria-hidden="true"></i>
+    </div>
+    <ul class="navigation-items desktop-hidden">
+                        <li class="navigation__item ">
+                            <div onclick="GetViewMenuPage();">Menus</div>
+                        </li>
+                        <li class="navigation__item ">
+                            <div onclick="GetViewMenuPage();">Find and Book</div>
+                        </li>
+                        <li class="navigation__item ">
+                            <a href="/offers/">Offers</a>
+                        </li>
+                        <li class="navigation__item ">
+                            <a href="/orderonline/">Delivery</a>
+                        </li>
+                        <li class="navigation__item ">
+                            <a href="https://orders-prezzo.ordertalk.net/#/">Takeaway</a>
+                        </li>
+                        <li class="navigation__item ">
+                            <a href="https://offers.prezzorestaurants.co.uk/Default.aspx?CampaignId=8696">SIGN UP</a>
+                        </li>
+ 
+    </ul>
+    <ul class="navigation-items change-location desktop-hidden">
+        <li class="navigation__item navigation__item-change_location">
+            <i class="fa fa-map-marker get-location" aria-hidden="true"></i>
+            <b id="current-location"></b>
+            - <span class="get-location">Get my location</span>
+        </li>
+    </ul>
+    <div class="bg"></div>
+</nav>
+            </div>
+        </header>-->
 <div class="container container-white">
       <div class="container container-contant">
         <div class="position-center logoPosition">
           <img class="logoPrezzo" src="img/img-for-prezzo/PREZZO_colour brush_strip.png">
           <div class="logoName">
-          <h3>Refer a friend</h1>
+          <strong>Refer a friend</strong>
+          <br>
+          <br>
           <h4>& EARN £10 FOR EACH FRIEND</h2>
         </div>  
         </div>
         <br>
         <br>
+        <br>
         <div class="row">
           <div class="col-md-6">
             <div class="row">
-              <div class="col-xs-1"><h3>1.</h3></div>
+              <div class="col-xs-1"><h1>1.</h1></div>
               <div class="col-xs-11"><p>Send this link to your friends & they get <span class="specialColor">£10</span> off. Simply copy & poste!</p></div>
             </div>
               <div class="input-group">
@@ -56,13 +163,14 @@
             </div>
             <br>
      <div class="row">
-       <div class="col-xs-1"><h3>2.</h3></div>
+       <div class="col-xs-1"><h1 class="mobile-size">2.</h1></div>
        <div class="col-xs-11"><p>Once they redeern their code, you'll get an email with <span class="specialColor">£10</span> off your next visit!</p></div>
      </div>
      <div class="row">
-       <div class="col-xs-1"><h3>3.</h3></div>
+       <div class="col-xs-1"><h1 class="mobile-size">3.</h1></div>
        <div class="col-xs-11"><p>Book a table, choose your favourite & enjoy!</p></div>
      </div>
+     <br>
      <img class="advertising" src="img/img-for-prezzo/PREZZO_colour brush_strip.png">
      <hgroup class="position-center">
         <h2 class="specialColor">NO LIMITS OF REFERALS.</h2>
@@ -75,19 +183,19 @@
               <h4>HOW DO I SHARE?</h4>
               <br>
               <p>We've created handy template that you can forward to a friend or update as you wish. Send via any social or eamail channel or simply copy & paste your unique sharing link & send to your friends!</p>
-              <textarea class="form-control js-copytextarea" rows="4">Discover Prezzo – the best Italian dining restaurant on the High street for pizza, pasta and vino. Use the unique link below and get a FREE £10 voucher when you first visit. Plus, if you use your unique code, I get a treat too. Saluti!</textarea>
+              <textarea class="form-control js-copytextarea" rows="3">Discover Prezzo – the best Italian dining restaurant on the High street for pizza, pasta and vino. Use the unique link below and get a FREE £10 voucher when you first visit. Plus, if you use your unique code, I get a treat too. Saluti!</textarea>
               <br>
               <ul class="list-inline position-center">
-      <li><div data-href="https://www.prezzorestaurants.co.uk/" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.prezzorestaurants.co.uk%2F&amp;src=sdkpreparse"><img class="icon-size" src="img/img-for-prezzo/if_Facebook_57752.png" alt=""></a></div></li>
+      <li><div data-href="https://www.prezzorestaurants.co.uk/" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.prezzorestaurants.co.uk%2F&amp;src=sdkpreparse"><img class="icon-size" src="img/img-for-prezzo/FB-f-Logo__blue_144.png" alt=""></a></div></li>
       <li><a class="twitter-share-button"
   href="https://twitter.com/intent/tweet?url=https://www.prezzorestaurants.co.uk/&text=Welcome to prezzo -"
   data-size="large"
   target="_blank">
-<img class="icon-size" src="img/img-for-prezzo/if_twitter_252077.png" alt=""></a></li>
+<img class="icon-size" src="img/img-for-prezzo/Twitter_Logo_WhiteOnBlue.png" alt=""></a></li>
       <li><a href="https://plus.google.com/share?url=https://www.prezzorestaurants.co.uk/" onclick="javascript:window.open(this.href,
-  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=400');return false;"><img class="icon-size" src="img/img-for-prezzo/if_gmail_132837.png" alt=""></a></li>
-      <li><a target="_blank" href="http://profitquery.com/add-to/yahoo-mail/?title=prezzo&description=prezzo restaurants&url=www.prezzorestaurants.co.uk"><img class="icon-size" src="img/img-for-prezzo/if_Yahoo_57761.png" alt=""></a></li>
-      <li><a href="https://api.addthis.com/oexchange/0.8/forward/hotmail/offer?url=www.prezzorestaurants.co.uk&title=Prezzo&text=prezzo restaurant- &ct=1" target="_blank"><img class="icon-size" src="img/img-for-prezzo/if_outlook_1175610.png" alt=""></a></li>
+  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=400');return false;"><img class="icon-size icon-view" src="img/img-for-prezzo/logo_gmail_128px.png" alt=""></a></li>
+      <li><a target="_blank" href="http://profitquery.com/add-to/yahoo-mail/?title=prezzo&description=prezzo restaurants&url=www.prezzorestaurants.co.uk"><img class="icon-size icon-view" src="img/img-for-prezzo/if_yahoo_294646.png" alt=""></a></li>
+      <li><a href="https://api.addthis.com/oexchange/0.8/forward/hotmail/offer?url=www.prezzorestaurants.co.uk&title=Prezzo&text=prezzo restaurant- &ct=1" target="_blank"><img class="icon-size" src="img/img-for-prezzo/Outlook-icon.png" alt=""></a></li>
       <li><div class="social-button js-textareacopybtn btn-tooltip-area size-text" data-toggle="tooltip-area" title="Сopied!"><strong>Copy Text</strong></div></li>
       </ul>
       <br>
