@@ -1,0 +1,101 @@
+@media screen and (max-width: 991px) { 
+	
+	footer{
+		position: relative;
+		text-align: center;
+	}
+
+	.logoName {
+    	margin-top: -12%;
+	}
+
+	.advertising {
+    	width: 63%;
+    	margin-top: -9%;
+    	padding-top: -54px;
+    	margin-left: 20%;
+    	padding-bottom: -17px;
+	}
+
+	.social{
+	    margin-top: 30px;
+	}
+}
+@media screen and (max-width: 767px){ 
+
+	.advertising {
+    	width: 67%;
+    	margin-top: -6%;
+    	margin-left: 18%;
+	}
+
+	hgroup {
+    	margin-top: -16%;
+	}
+}
+@media screen and (max-width: 680px){
+
+	.logoName {
+    	margin-top: -15%;
+	}
+
+	hgroup {
+    	margin-top: -17%;
+	}
+
+	.advertising {
+    	width: 76%;
+    	margin-left: 14%;
+	}
+}
+
+@media screen and (max-width: 550px) {
+
+	h2{
+	    font-size: 0.9rem;
+	}
+
+	.logoName {
+    	margin-top: -18%;
+	}
+}
+
+@media screen and (max-width: 450px) { 
+
+	.logoName {
+   		margin-top: -24%;
+	}
+
+	h2 {
+    	font-size: 0.7rem;
+	}
+}
+
+@media screen and (max-width: 400px) { 
+
+	.logoPrezzo {
+    	width: 280px;
+	}
+
+	.advertising {
+    	width: 105%;
+   		margin-left: 0%;
+	}
+
+	hgroup {
+    	margin-top: -24%;
+	}
+
+	strong{
+		font-size: 16px;
+	}
+
+	.social-button {
+    	height: 34px;
+	}
+
+	.icon-size {
+    	width: 32px;
+   		margin-bottom: 0;
+	}
+}

@@ -24,3 +24,16 @@ copyInputBtn.addEventListener('click', function(event) {
     window.alert('Oops, unable to copy');
   }
 });
+var copyInputBtnD = document.querySelector('.js-inputcopybtnD');
+copyInputBtnD.addEventListener('click', function(event) {
+  var copyInputD = document.querySelector('.js-copyinputD');
+  copyInputD.select();
+  try {
+    var successful = document.execCommand('copy');
+    var msg = successful ? 'successful' : 'unsuccessful';
+        $("[data-toggle='tooltip-inputD']").tooltip('toggle');
+        setTimeout(function(){ $("[data-toggle='tooltip-inputD']").tooltip('destroy');}, 1500)
+  } catch (err) {
+    window.alert('Oops, unable to copy');
+  }
+});
