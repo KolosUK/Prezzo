@@ -29,7 +29,7 @@
 
 var google_maps_loaded_def = null;
 
-define(['jquery','geoPlaces' ],function($) {
+function($) {
   var geoPlaces = require('geoPlaces');
   var apiKey = document.querySelector('body').getAttribute('data-hiddenApi');
 
@@ -59,4 +59,4 @@ define(['jquery','geoPlaces' ],function($) {
   
   return google_maps_loaded_def.promise();
   
-});
+};

@@ -300,12 +300,16 @@ footer > p{
 }
 
 .logoName{
-    margin-top: -14%;
+    margin-top: -13%;
 }
 
 .advertising{
 	width: 450px;
     margin-top: -10%;
+}
+
+.logoPrezzo {
+    width: 460px;
 }
 }
 
