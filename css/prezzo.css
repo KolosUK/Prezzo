@@ -307,10 +307,6 @@ footer > p{
 	width: 450px;
     margin-top: -10%;
 }
-
-.logoPrezzo {
-    width: 460px;
-}
 }
 
 @media screen and (min-width: 1200px) { 
