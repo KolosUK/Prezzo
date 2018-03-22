@@ -1,0 +1,2455 @@
+@media (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  /* line 49, ../../src/styles/generic/_flair.scss */
+  body.theme-green-star .divider,
+  .theme-blue-flake .divider {
+    background: url("/Static/images/flair/blue-flake-big@x2.png") 50% 0 no-repeat;
+    background-size: 65px 65px;
+  }
+}
+
+/* line 1, ../../src/styles/generic/_icons.scss */
+.fa-map-marker {
+  color: #d68a69;
+}
+
+/* line 6, ../../src/styles/layouts/_default-master.scss */
+.grid-wrapper,
+.grid-wrapper--add-border {
+  clear: both;
+  margin: 0 auto;
+  width: 92%;
+}
+@media (min-width: 977px) {
+  /* line 6, ../../src/styles/layouts/_default-master.scss */
+  .grid-wrapper,
+  .grid-wrapper--add-border {
+    overflow: hidden;
+    *zoom: 1;
+  }
+}
+@media (min-width: 48em) {
+  /* line 6, ../../src/styles/layouts/_default-master.scss */
+  .grid-wrapper,
+  .grid-wrapper--add-border {
+    max-width: 73.75em;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .grid-wrapper, .lt-ie9
+.grid-wrapper--add-border {
+  max-width: 73.75em;
+}
+
+@media (min-width: 48em) {
+  /* line 21, ../../src/styles/layouts/_default-master.scss */
+  body.theme-green-star .offer-listing--single,
+  .theme-blue-flake .offer-listing--single {
+    max-width: 61.500em;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 body.theme-green-star .offer-listing--single, .lt-ie9
+.theme-blue-flake .offer-listing--single {
+  max-width: 61.500em;
+}
+
+@media (max-width: 48em) {
+  /* line 29, ../../src/styles/layouts/_default-master.scss */
+  .grid-wrapper--remove-margin {
+    width: 100%;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .grid-wrapper--remove-margin {
+  width: 100%;
+}
+
+@media (min-width: 977px) {
+  /* line 36, ../../src/styles/layouts/_default-master.scss */
+  .grid-wrapper--add-border {
+    border-left: 1.25em solid #fff;
+    border-right: 1.25em solid #fff;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .grid-wrapper--add-border {
+  border-left: 1.25em solid #fff;
+  border-right: 1.25em solid #fff;
+}
+
+@media (min-width: 977px) {
+  /* line 44, ../../src/styles/layouts/_default-master.scss */
+  .grid-wrapper--add-border-left-only {
+    border-left: 1.25em solid #fff;
+    border-right: 1.25em solid transparent;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .grid-wrapper--add-border-left-only {
+  border-left: 1.25em solid #fff;
+  border-right: 1.25em solid transparent;
+}
+
+@media (min-width: 977px) {
+  /* line 51, ../../src/styles/layouts/_default-master.scss */
+  .grid-wrapper--add-border-right-only {
+    border-left: 1.25em solid transparent;
+    border-right: 1.25em solid #fff;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .grid-wrapper--add-border-right-only {
+  border-left: 1.25em solid transparent;
+  border-right: 1.25em solid #fff;
+}
+
+/* line 58, ../../src/styles/layouts/_default-master.scss */
+.grid-wrapper--overflow-visible {
+  overflow: visible;
+}
+
+/* line 63, ../../src/styles/layouts/_default-master.scss */
+.grid-wrapper .grid-wrapper {
+  width: 100%;
+}
+
+@media (min-width: 48em) {
+  /* line 69, ../../src/styles/layouts/_default-master.scss */
+  .flair-wrapper {
+    background-image: url(/Static/images/background/background-slice.jpg);
+    background-repeat: repeat-x;
+    background-position: center;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .flair-wrapper {
+  background-image: url(/Static/images/background/background-slice.jpg);
+  background-repeat: repeat-x;
+  background-position: center;
+}
+
+/* line 76, ../../src/styles/layouts/_default-master.scss */
+.flair-wrapper-square {
+  background: url("/Static/images/flair/diamond-repeater.png") 0 0 repeat;
+}
+
+@media (min-width: 48em) {
+  /* line 81, ../../src/styles/layouts/_default-master.scss */
+  .theme-green-star .flair-wrapper {
+    background: url("/Static/images/flair/star-repeater.png") 0 0 repeat;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .theme-green-star .flair-wrapper {
+  background: url("/Static/images/flair/star-repeater.png") 0 0 repeat;
+}
+
+@media (min-width: 48em) {
+  /* line 90, ../../src/styles/layouts/_default-master.scss */
+  body.theme-green-star .flair-wrapper,
+  .theme-blue-flake .flair-wrapper {
+    background: url("/Static/images/flair/blue-flake-repeater.png") 0 0 repeat;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 body.theme-green-star .flair-wrapper, .lt-ie9
+.theme-blue-flake .flair-wrapper {
+  background: url("/Static/images/flair/blue-flake-repeater.png") 0 0 repeat;
+}
+
+/* End wrappers */
+/* line 99, ../../src/styles/layouts/_default-master.scss */
+.banner {
+  /*@include clearfix;*/
+  background: rgb(255, 255, 255);
+  position: absolute;
+  width: 100%;
+  z-index: 15;
+}
+@media (max-width: 61em) {
+  /* line 99, ../../src/styles/layouts/_default-master.scss */
+  .banner {
+    background: rgba(255, 255, 255, 0.97);
+    box-shadow: 0 2px 3px #c1c1c1;
+  }
+}
+@media (min-width: 977px) {
+  /* line 99, ../../src/styles/layouts/_default-master.scss */
+  .banner {
+    overflow: hidden;
+  }
+}
+/* line 115, ../../src/styles/layouts/_default-master.scss */
+.banner .navigation, .banner .grid-wrapper {
+  overflow: visible;
+}
+
+/* line 119, ../../src/styles/layouts/_default-master.scss */
+.lt-ie9 .banner {
+  overflow: visible;
+  margin: 0 auto;
+}
+/* line 122, ../../src/styles/layouts/_default-master.scss */
+.lt-ie9 .banner > .grid-wrapper {
+  background: #fff;
+}
+
+/* line 126, ../../src/styles/layouts/_default-master.scss */
+.menu-open .banner {
+  z-index: 999;
+}
+@media (max-width: 61em) {
+  /* line 126, ../../src/styles/layouts/_default-master.scss */
+  .menu-open .banner {
+    background: #fff;
+    /*border-bottom: 1px solid #e1e5e9;*/
+  }
+}
+
+/* line 135, ../../src/styles/layouts/_default-master.scss */
+.no-rgba .banner {
+  background: #fff;
+}
+
+@media (min-width: 977px) {
+  /* line 140, ../../src/styles/layouts/_default-master.scss */
+  .banner--no-hero {
+    position: static;
+    background: rgba(255, 255, 255, 0.9) url(/Static/images/placeholders/placeholder-no-hero.jpg) 0 0 repeat-x;
+  }
+}
+@media (max-width: 976px) {
+  /* line 147, ../../src/styles/layouts/_default-master.scss */
+  .banner--no-hero + .main-content {
+    padding-top: 60px;
+  }
+}
+
+/*.banner--no-hero .grid-wrapper{
+    position: relative;
+}*/
+/* line 155, ../../src/styles/layouts/_default-master.scss */
+.main-content {
+  overflow: hidden;
+  *zoom: 1;
+  position: relative;
+}
+
+/* line 160, ../../src/styles/layouts/_default-master.scss */
+.lt-ie9 .main-content, .lt-ie9 .site-footer {
+  overflow: visible;
+}
+
+/* line 163, ../../src/styles/layouts/_default-master.scss */
+.site-footer {
+  background: #fff;
+}
+@media (max-width: 976px) {
+  /* line 163, ../../src/styles/layouts/_default-master.scss */
+  .site-footer {
+    border-top: 1px solid #cbcbcb;
+  }
+}
+
+/* line 170, ../../src/styles/layouts/_default-master.scss */
+.lt-ie9 body {
+  width: 100%;
+}
+
+/* line 173, ../../src/styles/layouts/_default-master.scss */
+.lt-ie9 .grid-wrapper {
+  width: 1180px !important;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+/* line 181, ../../src/styles/layouts/_default-master.scss */
+.skip {
+  display: block;
+  float: left;
+  padding: 0.5em;
+  margin-left: -999em;
+}
+
+/* line 188, ../../src/styles/layouts/_default-master.scss */
+.skip:focus {
+  margin-left: 0;
+}
+
+@media (min-width: 977px) {
+  /* line 192, ../../src/styles/layouts/_default-master.scss */
+  .desktop-hidden {
+    display: none !important;
+  }
+}
+
+@media (max-width: 976px) {
+  /* line 198, ../../src/styles/layouts/_default-master.scss */
+  .mobile-hidden {
+    display: none !important;
+  }
+}
+
+/* line 1, ../../src/styles/shared/_book-a-table-widget.scss */
+.bat-loading a[data-inline-bat-modal] {
+  pointer-events: none;
+}
+
+/* line 5, ../../src/styles/shared/_book-a-table-widget.scss */
+.sticky {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  bottom: -4px;
+}
+
+/* line 11, ../../src/styles/shared/_book-a-table-widget.scss */
+.btn--booking {
+  width: 190px;
+  padding-bottom: 1.25rem;
+  padding-top: 1.25rem;
+  border: 1px solid #eee;
+  padding: 0.75em 4.5em 0.85em 0.5em;
+  border: 1px solid #000;
+  border-bottom: none;
+  font-size: 100%;
+  color: #000;
+  font-family: 'UniversLTW01-47LightCn', helvetica, arial, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: left;
+  color: #d68a69;
+  line-height: 25px;
+  height: 45px;
+  float: left;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #FFF;
+  background-image: url(/Static/images/icons/book-a-table-widget-btn-icons.png);
+  background-position: 98% 5px;
+  background-repeat: no-repeat;
+  	/*
+  	This code is no longer required, as the footer "Book table" no longer has a toggle feature
+  	&.btn--booking--open {
+  		background-position: right bottom;
+  	}
+  
+  	.no-booking-form & {
+  		display: none;
+  	}
+  	*/
+}
+@media (max-width: 976px) {
+  /* line 11, ../../src/styles/shared/_book-a-table-widget.scss */
+  .btn--booking {
+    font-family: 'Dosis-Light', helvetica, arial, sans-serif;
+  }
+}
+/* line 35, ../../src/styles/shared/_book-a-table-widget.scss */
+.btn--booking:visited {
+  color: #b97050;
+}
+/* line 39, ../../src/styles/shared/_book-a-table-widget.scss */
+.btn--booking:hover {
+  color: #FFF;
+  border: solid 1px #d68a69;
+  background-color: #d68a69;
+  border-bottom: none;
+  cursor: pointer;
+  background-position: 98% -61px;
+}
+
+/* line 59, ../../src/styles/shared/_book-a-table-widget.scss */
+.book-a-table-widget {
+  min-height: 39px;
+  margin-top: 1em;
+}
+/* line 63, ../../src/styles/shared/_book-a-table-widget.scss */
+.book-a-table-widget .book-a-table {
+  border: none;
+  padding-right: 0;
+  padding-left: 0;
+  outline: none;
+  outline-offset: 0;
+}
+
+/* line 71, ../../src/styles/shared/_book-a-table-widget.scss */
+.book-a-table-widget__content-wrapper {
+  border-top: 2px solid #000;
+  box-shadow: 0 1px 0 0 #fff, 0 2px 0 0 #000;
+  margin: 0 0 2px 0;
+  background: #fff;
+}
+
+/* line 75, ../../src/styles/shared/_book-a-table-widget.scss */
+.book-a-table-widget__btn-prop {
+  min-height: 45px;
+}
+
+/*
+
+Keep incase we need to revert to this layout
+This contains styles for a resturant picker in the footer
+
+.book-a-table-widget__form-wrapper{
+	@include gs-span(m, 1, 7);
+	position: relative;
+
+	@include breakpoint($bp-large, $no-query) {
+		@include gs-span(d, 1, 4);
+	}
+	&.is-not-open{
+			display: none !important;	
+	}
+}
+.book-a-table-widget__form{
+	@include clearfix;
+	padding: $layout-default-spacer;
+	border: $border-simple-thin;
+	width: 100%;
+	@include breakpoint($bp-large, $no-query) {
+		padding: $layout-default-spacer;
+	}
+}
+.book-a-table-widget__restaurant-picker{
+	@include gs-span(m, 1, 5);
+	@include breakpoint($bp-large, $no-query) {
+		@include gs-span(d,1,8);
+		border: $border-simple-thin;
+	}
+}
+.book-a-table-widget__go{
+
+}
+// Set as an id as it's only function is to link to an event
+#book-a-table-widget__close{
+	position: absolute;
+	width: 20px;
+	height: 15px;
+	right: 2px;
+	top: 2px;
+	color: $color-peach;
+	background: none;
+	padding: 0;
+	margin: 0;
+	line-height: 20px;
+	font-size: 0.8em;
+	&:hover{
+		pointer: cursor;
+	}
+}	
+
+*/
+/** Branding styles
+* At present only applied to footer - can probably be better named and organised
+*/
+/* line 5, ../../src/styles/shared/_brand.scss */
+.brand {
+  background-image: url(Static/images/background/background-footer-slice.jpg);
+  background-repeat: repeat-x;
+  background-position: center;
+  border-top: 2px solid #000;
+  padding-bottom: 4em;
+  padding-top: 3em;
+  /*@include breakpoint('max-width' $bp-smaller) {
+      background-image: unset;
+      padding-bottom: 2em;
+      padding-top: 1em;
+      border-top: 0;
+  }*/
+}
+@media (min-width: 48em) {
+  /* line 5, ../../src/styles/shared/_brand.scss */
+  .brand {
+    padding-bottom: 6em;
+    padding-top: 8.25em;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .brand {
+  padding-bottom: 6em;
+  padding-top: 8.25em;
+}
+
+/* line 22, ../../src/styles/shared/_brand.scss */
+.brand .logo {
+  display: block;
+  float: left;
+  margin-left: 10.65574%;
+  margin-right: -100%;
+  width: 78.6%;
+  display: inline-block;
+  margin-bottom: 1.25em;
+  text-align: center;
+  /*@include breakpoint('max-width' $bp-smaller) {
+      display: none;
+  }*/
+}
+@media (min-width: 48em) {
+  /* line 22, ../../src/styles/shared/_brand.scss */
+  .brand .logo {
+    /*@include gs-span(d,11,12);*/
+    width: 180px;
+    float: right;
+    margin: 0 0 1.25em 0;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .brand .logo {
+  /*@include gs-span(d,11,12);*/
+  width: 180px;
+  float: right;
+  margin: 0 0 1.25em 0;
+}
+
+/* line 40, ../../src/styles/shared/_brand.scss */
+.brand .logo img {
+  width: 11.25em;
+}
+
+/**
+* Navigation
+* Primary and secondary navigation shares some stylistic elements, so a single style file although the modules are separate.
+* Requires a better description of what flex-box is doing and how the fallback styles work
+*/
+/* line 8, ../../src/styles/shared/_navigation.scss */
+.navigation {
+  overflow: hidden;
+  *zoom: 1;
+  text-transform: uppercase;
+}
+
+/* line 12, ../../src/styles/shared/_navigation.scss */
+.lt-ie9 .site-footer .navigation {
+  overflow: visible;
+}
+
+@media (max-height: 400px) {
+  /* line 16, ../../src/styles/shared/_navigation.scss */
+  .navigation__container {
+    overflow: hidden;
+    *zoom: 1;
+  }
+}
+@media (min-height: 480px) and (min-width: 976px) {
+  /* line 16, ../../src/styles/shared/_navigation.scss */
+  .navigation__container {
+    margin-bottom: 0.75em;
+  }
+}
+
+/* line 27, ../../src/styles/shared/_navigation.scss */
+.navigation li {
+  list-style: inside none;
+}
+
+/* line 32, ../../src/styles/shared/_navigation.scss */
+.navigation__item a:link {
+  color: #000;
+}
+
+/* line 35, ../../src/styles/shared/_navigation.scss */
+.navigation__item a:visited {
+  color: #010101;
+  text-decoration: none;
+}
+
+@media (min-width: 977px) {
+  /* line 39, ../../src/styles/shared/_navigation.scss */
+  .navigation__item a:hover {
+    border-bottom: 2px solid #000;
+    padding-bottom: 2px;
+  }
+}
+
+/*.navigation__item--selected a{
+    color: $color-black;
+    border-bottom: 2px solid $color-black;
+    padding-bottom: 2px;
+}*/
+/* line 55, ../../src/styles/shared/_navigation.scss */
+.navigation__item--selected {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+/* line 56, ../../src/styles/shared/_navigation.scss */
+.navigation__item--selected a {
+  color: #000;
+  border-bottom: 2px solid #000;
+  padding-bottom: 2px;
+}
+@media (max-width: 976px) {
+  /* line 56, ../../src/styles/shared/_navigation.scss */
+  .navigation__item--selected a {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+}
+
+/* line 70, ../../src/styles/shared/_navigation.scss */
+.navigation--primary {
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+@media (max-width: 976px) {
+  /* line 75, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary .close {
+    display: none;
+  }
+}
+
+@media (max-width: 976px) {
+  /* line 83, ../../src/styles/shared/_navigation.scss */
+  .menu-open .navigation--primary .open {
+    display: none;
+  }
+}
+/* line 89, ../../src/styles/shared/_navigation.scss */
+.menu-open .navigation--primary .close {
+  display: inherit;
+  color: #000;
+}
+
+/* line 95, ../../src/styles/shared/_navigation.scss */
+.navigation--primary .navigation__container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  align-items: center;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-align: center;
+  padding: .3em 0 0 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+@media (min-width: 61em) {
+  /* line 95, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary .navigation__container {
+    margin: 0 auto 10px auto;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -ms-flex-pack: distribute;
+    width: 83.11481%;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation--primary .navigation__container {
+  margin: 0 auto 10px auto;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -ms-flex-pack: distribute;
+  width: 83.11481%;
+}
+@media (max-width: 976px) {
+  /* line 95, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary .navigation__container {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* line 120, ../../src/styles/shared/_navigation.scss */
+.no-flexbox .navigation--primary .navigation__container {
+  overflow: hidden;
+  *zoom: 1;
+}
+@media (min-width: 61em) {
+  /* line 120, ../../src/styles/shared/_navigation.scss */
+  .no-flexbox .navigation--primary .navigation__container {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/* line 130, ../../src/styles/shared/_navigation.scss */
+.lt-ie9 .navigation--primary .navigation__container {
+  width: 100%;
+  text-align: left;
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 136, ../../src/styles/shared/_navigation.scss */
+.navigation--primary .navigation__item {
+  -webkit-order: 10;
+  order: 10;
+  -ms-flex-order: 10;
+  margin-top: 1.35rem;
+  width: 50%;
+  list-style: none;
+}
+@media (min-width: 61em) {
+  /* line 136, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary .navigation__item {
+    margin-top: 0;
+    display: inline-block;
+    width: auto;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    -ms-flex: 1;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation--primary .navigation__item {
+  margin-top: 0;
+  display: inline-block;
+  width: auto;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  -ms-flex: 1;
+}
+
+/* line 152, ../../src/styles/shared/_navigation.scss */
+.navigation__item-change_location {
+  position: absolute;
+  bottom: 0;
+  padding: 13px 20px !important;
+  border-top: 1px solid #e1e5e9;
+  width: -webkit-fill-available !important;
+}
+/* line 159, ../../src/styles/shared/_navigation.scss */
+.navigation__item-change_location .fa-map-marker {
+  color: black;
+}
+/* line 163, ../../src/styles/shared/_navigation.scss */
+.navigation__item-change_location b {
+  padding-left: 8px;
+}
+/* line 167, ../../src/styles/shared/_navigation.scss */
+.navigation__item-change_location span {
+  font-size: .9em;
+  text-decoration: underline;
+}
+
+/* line 173, ../../src/styles/shared/_navigation.scss */
+.navigation--primary .navigation-items .navigation__item {
+  width: auto;
+  padding: 13px 40px 13px 20px;
+  margin-top: 0;
+  border-bottom: 1px solid #e1e5e9;
+}
+/* line 174, ../../src/styles/shared/_navigation.scss */
+.navigation--primary .navigation-items .navigation__item:nth-child(1) {
+  border-top: 1px solid #e1e5e9;
+}
+
+/* line 184, ../../src/styles/shared/_navigation.scss */
+.navigation--primary .navigation__item--home {
+  margin-top: 0;
+  width: 100%;
+}
+/* line 188, ../../src/styles/shared/_navigation.scss */
+.navigation--primary .navigation__item--home a:hover {
+  border: none;
+  text-decoration: none;
+}
+@media (min-width: 61em) {
+  /* line 184, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary .navigation__item--home {
+    -webkit-order: 20;
+    order: 20;
+    -webkit-flex-grow: 2;
+    flex-grow: 2;
+    -ms-flex: 2;
+    -ms-flex-order: 20;
+    width: auto;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation--primary .navigation__item--home {
+  -webkit-order: 20;
+  order: 20;
+  -webkit-flex-grow: 2;
+  flex-grow: 2;
+  -ms-flex: 2;
+  -ms-flex-order: 20;
+  width: auto;
+}
+
+/* line 202, ../../src/styles/shared/_navigation.scss */
+.lt-ie9 .navigation--primary .navigation__item--home a {
+  width: 180px;
+  display: block;
+}
+/* line 206, ../../src/styles/shared/_navigation.scss */
+.lt-ie9 .navigation--primary .navigation__item--home a:hover {
+  border-bottom: none;
+}
+
+/* line 211, ../../src/styles/shared/_navigation.scss */
+.navigation--primary .navigation__item--home img {
+  width: 5em;
+  min-width: 80px;
+  min-height: 44px;
+  height: auto;
+}
+@media (min-width: 61em) {
+  /* line 211, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary .navigation__item--home img {
+    width: 8em;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation--primary .navigation__item--home img {
+  width: 8em;
+}
+@media (max-width: 976px) {
+  /* line 211, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary .navigation__item--home img {
+    width: 7em;
+    height: 50px;
+  }
+}
+
+@media (min-width: 61em) {
+  /* line 228, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary .navigation__item--1,
+  .navigation--primary .navigation__item--2,
+  .navigation--primary .navigation__item--3 {
+    -webkit-order: 10;
+    order: 10;
+    -ms-flex-order: 10;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation--primary .navigation__item--1, .lt-ie9
+.navigation--primary .navigation__item--2, .lt-ie9
+.navigation--primary .navigation__item--3 {
+  -webkit-order: 10;
+  order: 10;
+  -ms-flex-order: 10;
+}
+
+@media (min-width: 61em) {
+  /* line 237, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary .navigation__item--4,
+  .navigation--primary .navigation__item--5,
+  .navigation--primary .navigation__item--6 {
+    -webkit-order: 30;
+    order: 30;
+    -ms-flex-order: 30;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation--primary .navigation__item--4, .lt-ie9
+.navigation--primary .navigation__item--5, .lt-ie9
+.navigation--primary .navigation__item--6 {
+  -webkit-order: 30;
+  order: 30;
+  -ms-flex-order: 30;
+}
+
+@media screen and (min-width: 61em) and (-ms-high-contrast: active) and (-ms-high-contrast: none) {
+  /* line 247, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary .navigation__item--1 {
+    -ms-flex: 1.25;
+  }
+
+  /* line 251, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary .navigation__item--home {
+    -ms-flex: 1.0;
+  }
+
+  /* line 255, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary .navigation__item {
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 1;
+  }
+
+  /* line 259, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary .navigation__item--menus {
+    text-align: center;
+    margin-left: 0 !important;
+    font-size: 18px;
+    font-size: 1.12rem !important;
+  }
+}
+@media (max-width: 61em) {
+  /* line 267, ../../src/styles/shared/_navigation.scss */
+  .no-flexbox .navigation--primary:not(.navigation--primary--menus) .navigation__item {
+    width: 50%;
+    float: left;
+  }
+  /* line 273, ../../src/styles/shared/_navigation.scss */
+  .no-flexbox .navigation--primary:not(.navigation--primary--menus) .navigation__item:first-child {
+    width: 100%;
+  }
+}
+@media (min-width: 61em) {
+  /* line 267, ../../src/styles/shared/_navigation.scss */
+  .no-flexbox .navigation--primary:not(.navigation--primary--menus) .navigation__item {
+    float: left !important;
+    display: block;
+    margin-right: 5px;
+    line-height: 90px;
+    padding-right: 5px;
+    position: relative;
+  }
+  /* line 286, ../../src/styles/shared/_navigation.scss */
+  .no-flexbox .navigation--primary:not(.navigation--primary--menus) .navigation__item:after {
+    top: 20px;
+    right: 0;
+    display: block;
+  }
+}
+
+/* line 294, ../../src/styles/shared/_navigation.scss */
+.lt-ie9 .navigation--primary .navigation__item {
+  float: left !important;
+  display: block;
+  margin-right: 10px;
+  line-height: 90px;
+  padding-right: 10px;
+  position: relative;
+}
+/* line 302, ../../src/styles/shared/_navigation.scss */
+.lt-ie9 .navigation--primary .navigation__item:after {
+  top: 20px;
+  right: 0;
+  display: block;
+}
+
+@media (min-width: 61em) {
+  /* line 309, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary .navigation__item--1:after,
+  .navigation--primary .navigation__item--2:after,
+  .navigation--primary .navigation__item--4:after,
+  .navigation--primary .navigation__item--5:after,
+  .navigation__item--dot:after {
+    content: url(../img/img-for-prezzo/circle-navigation-spacer.png);
+    float: right;
+    height: 8px;
+    width: 8px;
+    margin-top: -3px;
+    z-index: 10;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation--primary .navigation__item--1:after, .lt-ie9
+.navigation--primary .navigation__item--2:after, .lt-ie9
+.navigation--primary .navigation__item--4:after, .lt-ie9
+.navigation--primary .navigation__item--5:after, .lt-ie9
+.navigation__item--dot:after {
+  content: url(../img/img-for-prezzo/circle-navigation-spacer.png);
+  float: right;
+  height: 8px;
+  width: 8px;
+  margin-top: -3px;
+  z-index: 10;
+}
+
+@media (min-width: 61em) {
+  /* line 325, ../../src/styles/shared/_navigation.scss */
+  .no-flexbox .navigation--primary .navigation__item--1:after,
+  .no-flexbox .navigation--primary .navigation__item--2:after,
+  .no-flexbox .navigation--primary .navigation__item--3:after,
+  .no-flexbox .navigation--primary .navigation__item--4:after,
+  .no-flexbox .navigation--primary .navigation__item--5:after {
+    content: url(../img/img-for-prezzo/circle-navigation-spacer.png);
+    float: right;
+    height: 8px;
+    width: 8px;
+    margin-left: 10px;
+    margin-top: -3px;
+    z-index: 10;
+  }
+}
+
+@media (min-width: 61em) {
+  /* line 342, ../../src/styles/shared/_navigation.scss */
+  .no-flexbox .navigation--primary .navigation__item--6 {
+    margin-right: 0;
+    padding-right: 0;
+  }
+}
+
+/* line 349, ../../src/styles/shared/_navigation.scss */
+.lt-ie9 .navigation--primary .navigation__item--1:after,
+.lt-ie9 .navigation--primary .navigation__item--2:after,
+.lt-ie9 .navigation--primary .navigation__item--3:after,
+.lt-ie9 .navigation--primary .navigation__item--4:after,
+.lt-ie9 .navigation--primary .navigation__item--5:after {
+  content: url(../img/img-for-prezzo/circle-navigation-spacer.png);
+  float: right;
+  height: 8px;
+  width: 8px;
+  margin-left: 20px;
+  margin-top: -3px;
+  z-index: 10;
+}
+
+@media (max-width: 61em) {
+  /* line 363, ../../src/styles/shared/_navigation.scss */
+  .navigation__item--5,
+  .navigation__item--6 {
+    margin-bottom: 1rem;
+  }
+}
+
+/* line 370, ../../src/styles/shared/_navigation.scss */
+.navigation--primary .marker {
+  position: absolute;
+  right: .75em;
+  top: .5em;
+}
+/* line 375, ../../src/styles/shared/_navigation.scss */
+.navigation--primary .marker .fa-map-marker {
+  font-size: 1.4em;
+  color: #000;
+}
+
+/* line 382, ../../src/styles/shared/_navigation.scss */
+.menu-open .navigation--primary .marker .fa-map-marker {
+  color: #000;
+}
+
+/* line 387, ../../src/styles/shared/_navigation.scss */
+.navigation--primary .navigation__toggle {
+  visibility: hidden;
+  position: absolute;
+  margin-left: 0.5em;
+  top: .25em;
+  /*color: #000;
+  visibility: hidden;
+  position: absolute;
+  right: .5em;
+  top: .6em;*/
+}
+/* line 400, ../../src/styles/shared/_navigation.scss */
+.navigation--primary .navigation__toggle:hover {
+  cursor: pointer;
+}
+/* line 404, ../../src/styles/shared/_navigation.scss */
+.navigation--primary .navigation__toggle .fa {
+  font-size: 1.35em;
+}
+/* line 408, ../../src/styles/shared/_navigation.scss */
+.navigation--primary .navigation__toggle div {
+  font-size: 0.55em;
+}
+@media (min-width: 977px) {
+  /* line 387, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary .navigation__toggle {
+    display: none;
+  }
+}
+
+@media (max-width: 61em) {
+  /* line 417, ../../src/styles/shared/_navigation.scss */
+  .navigation__item--hide {
+    display: none;
+  }
+}
+
+/* line 423, ../../src/styles/shared/_navigation.scss */
+.navigation--border-top {
+  border-top: 2px solid #000;
+  box-shadow: 0 1px 0 0 #fff, 0 2px 0 0 #000;
+  margin: 0 0 2px 0;
+}
+
+/* line 427, ../../src/styles/shared/_navigation.scss */
+.navigation--border-btm {
+  border-bottom: 2px solid #000;
+  box-shadow: 0 1px 0 0 #fff, 0 2px 0 0 #000;
+  margin: 0 0 2px 0;
+}
+@media (max-width: 976px) {
+  /* line 427, ../../src/styles/shared/_navigation.scss */
+  .navigation--border-btm {
+    border-bottom: 1px solid #e1e5e9;
+    box-shadow: none;
+  }
+}
+
+/* line 435, ../../src/styles/shared/_navigation.scss */
+.navigation--secondary {
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1;
+  overflow: hidden;
+  *zoom: 1;
+  margin: 1.25em 0 0 0;
+}
+@media (min-width: 68.125em) {
+  /* line 435, ../../src/styles/shared/_navigation.scss */
+  .navigation--secondary {
+    margin: 0;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation--secondary {
+  margin: 0;
+}
+
+/* line 445, ../../src/styles/shared/_navigation.scss */
+.navigation--secondary .navigation__container {
+  clear: both;
+}
+@media (max-width: 68.125em) {
+  /* line 445, ../../src/styles/shared/_navigation.scss */
+  .navigation--secondary .navigation__container {
+    display: block;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    width: 100.04809%;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation--secondary .navigation__container {
+  display: block;
+  float: left;
+  margin-left: 0;
+  margin-right: -100%;
+  width: 100.04809%;
+}
+@media (min-width: 68.125em) {
+  /* line 445, ../../src/styles/shared/_navigation.scss */
+  .navigation--secondary .navigation__container {
+    clear: none;
+    display: inline;
+    float: left;
+    margin-bottom: 0;
+    height: 60px;
+    line-height: 60px;
+  }
+  /* line 461, ../../src/styles/shared/_navigation.scss */
+  .navigation--secondary .navigation__container + .navigation__container {
+    float: right;
+    text-align: right;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation--secondary .navigation__container {
+  clear: none;
+  display: inline;
+  float: left;
+  margin-bottom: 0;
+  height: 60px;
+  line-height: 60px;
+}
+/* line 461, ../../src/styles/shared/_navigation.scss */
+.lt-ie9 .navigation--secondary .navigation__container + .navigation__container {
+  float: right;
+  text-align: right;
+}
+@media (max-width: 976px) {
+  /* line 445, ../../src/styles/shared/_navigation.scss */
+  .navigation--secondary .navigation__container {
+    margin-bottom: 0;
+  }
+  /* line 468, ../../src/styles/shared/_navigation.scss */
+  .navigation--secondary .navigation__container li {
+    text-align: center;
+    text-transform: none;
+  }
+}
+
+/* line 475, ../../src/styles/shared/_navigation.scss */
+.lt-ie9 .navigation--secondary .navigation__container {
+  width: auto;
+  margin: 0;
+}
+
+/* line 480, ../../src/styles/shared/_navigation.scss */
+.navigation--secondary .navigation__item {
+  margin-bottom: 1.35rem;
+  list-style: none;
+}
+@media (min-width: 68.125em) {
+  /* line 480, ../../src/styles/shared/_navigation.scss */
+  .navigation--secondary .navigation__item {
+    display: inline;
+    margin-bottom: 0;
+    padding-right: 1em;
+    margin-right: 0.5em;
+    position: relative;
+  }
+  /* line 491, ../../src/styles/shared/_navigation.scss */
+  .navigation--secondary .navigation__item:last-of-type {
+    padding-right: 0;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation--secondary .navigation__item {
+  display: inline;
+  margin-bottom: 0;
+  padding-right: 1em;
+  margin-right: 0.5em;
+  position: relative;
+}
+/* line 491, ../../src/styles/shared/_navigation.scss */
+.lt-ie9 .navigation--secondary .navigation__item:last-of-type {
+  padding-right: 0;
+}
+@media (max-width: 976px) {
+  /* line 480, ../../src/styles/shared/_navigation.scss */
+  .navigation--secondary .navigation__item {
+    margin-bottom: 1em;
+  }
+}
+
+@media (min-width: 68.125em) {
+  /* line 500, ../../src/styles/shared/_navigation.scss */
+  .navigation--secondary .navigation__item a:after {
+    content: url(../img/img-for-prezzo/circle-navigation-spacer.png);
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    right: 2px;
+    top: -21px;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation--secondary .navigation__item a:after {
+  content: url(../img/img-for-prezzo/circle-navigation-spacer.png);
+  height: 8px;
+  width: 8px;
+  position: absolute;
+  right: 2px;
+  top: -21px;
+}
+
+/* line 512, ../../src/styles/shared/_navigation.scss */
+.navigation--secondary .navigation__item:last-of-type a:after {
+  content: none;
+}
+
+/* Menu section modifications */
+/* Category nav */
+@media (min-width: 61em) {
+  /* line 517, ../../src/styles/shared/_navigation.scss */
+  .navigation-menu-background {
+    position: absolute;
+    width: 100%;
+    left: -50%;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation-menu-background {
+  position: absolute;
+  width: 100%;
+  left: -50%;
+}
+
+@media (min-width: 61em) {
+  /* line 525, ../../src/styles/shared/_navigation.scss */
+  .navigation--menu-categories__wrapper {
+    position: absolute;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation--menu-categories__wrapper {
+  position: absolute;
+}
+
+@media (min-width: 61em) {
+  /* line 531, ../../src/styles/shared/_navigation.scss */
+  .navigation--menu-categories {
+    overflow: visible;
+    position: relative;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation--menu-categories {
+  overflow: visible;
+  position: relative;
+}
+@media (min-width: 977px) {
+  /* line 537, ../../src/styles/shared/_navigation.scss */
+  .navigation--menu-categories.navigation--primary--menus__sidebar {
+    padding-right: 2.5em;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation--menu-categories.navigation--primary--menus__sidebar {
+  padding-right: 2.5em;
+}
+
+/* line 544, ../../src/styles/shared/_navigation.scss */
+.navigation--menu-categories__inner {
+        /*@include breakpoint($bp-larger, $no-query) {
+		border-right: 0.75em solid #fff;
+	}*/
+}
+@media (min-width: 61em) {
+  /* line 544, ../../src/styles/shared/_navigation.scss */
+  .navigation--menu-categories__inner {
+    position: relative;
+    z-index: 2;
+    padding: 1.5em 0;
+    width: 110%;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation--menu-categories__inner {
+  position: relative;
+  z-index: 2;
+  padding: 1.5em 0;
+  width: 110%;
+}
+@media (min-height: 480px) and (max-height: 1180px) {
+  /* line 544, ../../src/styles/shared/_navigation.scss */
+  .navigation--menu-categories__inner {
+    padding: 0.75em 0;
+  }
+}
+
+@media (min-width: 61em) {
+  /* line 560, ../../src/styles/shared/_navigation.scss */
+  .navigation--menu-categories__inner-background {
+    padding: 1.5em 1em;
+    background: #fff;
+    max-width: 175px !important;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation--menu-categories__inner-background {
+  padding: 1.5em 1em;
+  background: #fff;
+  max-width: 175px !important;
+}
+@media (min-height: 480px) and (max-height: 1023px) {
+  /* line 560, ../../src/styles/shared/_navigation.scss */
+  .navigation--menu-categories__inner-background {
+    padding: 0.75em 1em;
+  }
+}
+
+@media (min-width: 61em) {
+  /* line 572, ../../src/styles/shared/_navigation.scss */
+  .navigation--menu-categories__background {
+    background-image: url(/Static/images/background/background-slice.jpg);
+    background-repeat: repeat-x;
+    background-position: center;
+    left: auto;
+    width: 150% !important;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-left: -250%;
+    padding-right: 250%;
+  }
+  /* line 585, ../../src/styles/shared/_navigation.scss */
+  .theme-blue-flake .navigation--menu-categories__background {
+    background-image: url("/Static/images/flair/blue-flake-repeater.png");
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation--menu-categories__background {
+  background-image: url(/Static/images/background/background-slice.jpg);
+  background-repeat: repeat-x;
+  background-position: center;
+  left: auto;
+  width: 150% !important;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  margin-left: -250%;
+  padding-right: 250%;
+}
+/* line 585, ../../src/styles/shared/_navigation.scss */
+.theme-blue-flake .lt-ie9 .navigation--menu-categories__background {
+  background-image: url("/Static/images/flair/blue-flake-repeater.png");
+}
+
+/* line 591, ../../src/styles/shared/_navigation.scss */
+.navigation__item--menu-category--heading {
+  color: #000;
+  font-family: 'UniversLTW01-57Condense_723821', helvetica, arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1;
+  margin: 0.5em 0;
+}
+@media (min-height: 480px) and (max-height: 1180px) {
+  /* line 591, ../../src/styles/shared/_navigation.scss */
+  .navigation__item--menu-category--heading {
+    margin: 0.3em 0;
+  }
+}
+
+/* line 601, ../../src/styles/shared/_navigation.scss */
+.navigation__item--menu-category {
+  margin: 0.25em 0 0 0;
+}
+@media (max-height: 400px) {
+  /* line 601, ../../src/styles/shared/_navigation.scss */
+  .navigation__item--menu-category {
+    width: 50%;
+    float: left;
+  }
+}
+@media (min-height: 480px) and (max-height: 1180px) {
+  /* line 601, ../../src/styles/shared/_navigation.scss */
+  .navigation__item--menu-category {
+    margin-top: 0;
+    line-height: 1.2;
+  }
+}
+@media (max-width: 976px) {
+  /* line 601, ../../src/styles/shared/_navigation.scss */
+  .navigation__item--menu-category {
+        /*margin: 0.25em 0 0 0;
+        // Media query required so that on small screen heights the whole menu is selectable
+        @media(max-height: 400px) {
+            width: 50%;
+            float: left;
+        }
+
+        @media(min-height: 480px) and (max-height: 1180px) {
+            margin-top: 0;
+            line-height: 1.2;
+        }*/
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+/* line 633, ../../src/styles/shared/_navigation.scss */
+.navigation__item--filter {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  display: inline-block;
+  margin-left: 1%;
+}
+@media (min-width: 61em) {
+  /* line 633, ../../src/styles/shared/_navigation.scss */
+  .navigation__item--filter {
+    display: block;
+    margin-left: 0;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation__item--filter {
+  display: block;
+  margin-left: 0;
+}
+@media (min-height: 480px) and (max-height: 1180px) {
+  /* line 633, ../../src/styles/shared/_navigation.scss */
+  .navigation__item--filter {
+    margin-top: 0.25em;
+    margin-bottom: 0;
+  }
+}
+/* line 649, ../../src/styles/shared/_navigation.scss */
+.stuck .navigation__item--filter {
+  width: 35px;
+  height: 38px;
+  line-height: 35px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+/* line 658, ../../src/styles/shared/_navigation.scss */
+.navigation__item--menu-category a,
+.navigation__item--filter a {
+  font-size: 17px;
+  font-size: 1.0625rem;
+  line-height: 1.17647;
+}
+/* line 662, ../../src/styles/shared/_navigation.scss */
+.navigation__item--menu-category a:link, .navigation__item--menu-category a:visited,
+.navigation__item--filter a:link,
+.navigation__item--filter a:visited {
+  color: #000;
+}
+@media (min-width: 61em) {
+  /* line 662, ../../src/styles/shared/_navigation.scss */
+  .navigation__item--menu-category a:link, .navigation__item--menu-category a:visited,
+  .navigation__item--filter a:link,
+  .navigation__item--filter a:visited {
+    color: #d68a69;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation__item--menu-category a:link, .lt-ie9 .navigation__item--menu-category a:visited, .lt-ie9
+.navigation__item--filter a:link, .lt-ie9
+.navigation__item--filter a:visited {
+  color: #d68a69;
+}
+/* line 670, ../../src/styles/shared/_navigation.scss */
+.navigation__item--menu-category a:hover, .navigation__item--menu-category a:active, .navigation__item--menu-category a:focus,
+.navigation__item--filter a:hover,
+.navigation__item--filter a:active,
+.navigation__item--filter a:focus {
+  color: #000;
+}
+
+/* line 675, ../../src/styles/shared/_navigation.scss */
+.navigation__item--filter a {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.25;
+}
+/* line 678, ../../src/styles/shared/_navigation.scss */
+.navigation__item--filter a:hover {
+  border: none;
+  cursor: pointer;
+}
+
+/* line 684, ../../src/styles/shared/_navigation.scss */
+.filters {
+  margin-top: 0.5em;
+}
+@media (min-height: 480px) and (max-height: 1180px) {
+  /* line 684, ../../src/styles/shared/_navigation.scss */
+  .filters {
+    margin-top: 0;
+  }
+}
+
+/* line 692, ../../src/styles/shared/_navigation.scss */
+a.navigation__item__filter {
+  display: block;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+/* line 697, ../../src/styles/shared/_navigation.scss */
+a.navigation__item__filter:hover {
+  border: none;
+  text-decoration: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* line 705, ../../src/styles/shared/_navigation.scss */
+[data-filterable="false"] .filter-abbreviation {
+  opacity: 0.5;
+}
+
+/* line 709, ../../src/styles/shared/_navigation.scss */
+[data-filterable="true"] .filter-abbreviation {
+  opacity: 1;
+}
+
+/* line 713, ../../src/styles/shared/_navigation.scss */
+.navigation__item__filter:hover .filter-abbreviation,
+[data-filterable="true"] .filter-abbreviation {
+  border-color: #1e9a48;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 966px) {
+  /* line 721, ../../src/styles/shared/_navigation.scss */
+  .stuck .navigation--menu-categories__inner-background .btn--toggler {
+    position: fixed;
+    top: -2px;
+    z-index: 100;
+    left: 0;
+    right: 0;
+  }
+  /* line 729, ../../src/styles/shared/_navigation.scss */
+  .stuck .navigation--menu-categories__inner-background .toggled-content {
+    position: fixed;
+    top: 45px;
+    z-index: 1000;
+    background-color: white;
+    width: calc(100% - 65px);
+  }
+}
+@media (min-width: 61em) {
+  /* line 718, ../../src/styles/shared/_navigation.scss */
+  .stuck {
+    position: fixed;
+    top: 0;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .stuck {
+  position: fixed;
+  top: 0;
+}
+@media (min-height: 480px) and (max-height: 1180px) {
+  /* line 745, ../../src/styles/shared/_navigation.scss */
+  .stuck .filters .navigation__container {
+    margin-bottom: 0;
+  }
+}
+
+/* line 751, ../../src/styles/shared/_navigation.scss */
+.navigation--menu-categories__background.stuck {
+  display: none;
+}
+@media (min-width: 61em) {
+  /* line 751, ../../src/styles/shared/_navigation.scss */
+  .navigation--menu-categories__background.stuck {
+    display: block;
+    left: 0;
+    right: auto;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation--menu-categories__background.stuck {
+  display: block;
+  left: 0;
+  right: auto;
+}
+
+/* Menu nav */
+/* line 761, ../../src/styles/shared/_navigation.scss */
+.navigation--primary--menus {
+  padding-top: 1.5em;
+}
+
+/* line 765, ../../src/styles/shared/_navigation.scss */
+.navigation__item--title {
+  text-align: left;
+}
+
+@media (min-width: 61em) {
+  /* line 769, ../../src/styles/shared/_navigation.scss */
+  .navigation__container--left,
+  .navigation__container--right {
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation__container--left, .lt-ie9
+.navigation__container--right {
+  clear: both;
+  display: block;
+  float: left;
+  margin-left: 0;
+  width: 100%;
+}
+
+@media (min-width: 61em) {
+  /* line 776, ../../src/styles/shared/_navigation.scss */
+  .navigation__container--right {
+    clear: none;
+    float: right;
+    margin-right: 0;
+    margin-left: 1.7%;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation__container--right {
+  clear: none;
+  float: right;
+  margin-right: 0;
+  margin-left: 1.7%;
+}
+
+/* line 782, ../../src/styles/shared/_navigation.scss */
+.navigation--primary .navigation__item--title--menus {
+  width: 100%;
+}
+@media (min-width: 61em) {
+  /* line 782, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary .navigation__item--title--menus {
+    width: auto;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation--primary .navigation__item--title--menus {
+  width: auto;
+}
+
+/* line 790, ../../src/styles/shared/_navigation.scss */
+.navigation--primary .navigation__item--menus {
+  width: 100%;
+}
+@media (min-width: 61em) {
+  /* line 790, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary .navigation__item--menus {
+    width: auto;
+    font-size: 99%;
+    clear: none;
+    float: right;
+    margin-right: 0;
+    margin-left: 1.7%;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation--primary .navigation__item--menus {
+  width: auto;
+  font-size: 99%;
+  clear: none;
+  float: right;
+  margin-right: 0;
+  margin-left: 1.7%;
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* line 790, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary .navigation__item--menus {
+    font-size: 80%;
+  }
+}
+
+@media (min-width: 61em) {
+  /* line 804, ../../src/styles/shared/_navigation.scss */
+  .no-flexbox .navigation--primary .navigation__item--menus {
+    float: left;
+    margin-left: 0;
+    margin-right: 10px;
+    padding-right: 15px;
+    position: relative;
+  }
+  /* line 812, ../../src/styles/shared/_navigation.scss */
+  .no-flexbox .navigation--primary .navigation__item--menus:after {
+    right: 0;
+    top: 0;
+    float: right;
+    margin-left: 15px;
+  }
+}
+
+/* line 821, ../../src/styles/shared/_navigation.scss */
+.lt-ie9 .navigation--primary .navigation__item--menus {
+  float: left;
+  margin-left: 0;
+  margin-right: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+/* line 828, ../../src/styles/shared/_navigation.scss */
+.lt-ie9 .navigation--primary .navigation__item--menus:after {
+  right: 0;
+  top: 0;
+  float: right;
+  margin-left: 15px;
+}
+
+/* Toggles */
+/* line 836, ../../src/styles/shared/_navigation.scss */
+.btn--toggler {
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1;
+  margin-top: 0.1em;
+  padding: 0.75em 1.25em;
+  text-align: left;
+  color: #fff;
+  background: #d68a69;
+  cursor: pointer;
+}
+/* line 845, ../../src/styles/shared/_navigation.scss */
+.btn--toggler .title-dt {
+  display: none;
+  font-style: normal;
+}
+/* line 850, ../../src/styles/shared/_navigation.scss */
+.btn--toggler .title-mb {
+  display: inline-block;
+  font-style: normal;
+}
+@media (min-width: 61em) {
+  /* line 836, ../../src/styles/shared/_navigation.scss */
+  .btn--toggler {
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-top: 0;
+    padding: 0;
+    color: #000;
+    background: none;
+    cursor: default;
+  }
+  /* line 863, ../../src/styles/shared/_navigation.scss */
+  .btn--toggler .title-dt {
+    display: inline-block;
+  }
+  /* line 867, ../../src/styles/shared/_navigation.scss */
+  .btn--toggler .title-mb {
+    display: none;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .btn--toggler {
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-top: 0;
+  padding: 0;
+  color: #000;
+  background: none;
+  cursor: default;
+}
+/* line 863, ../../src/styles/shared/_navigation.scss */
+.lt-ie9 .btn--toggler .title-dt {
+  display: inline-block;
+}
+/* line 867, ../../src/styles/shared/_navigation.scss */
+.lt-ie9 .btn--toggler .title-mb {
+  display: none;
+}
+@media (min-height: 480px) and (min-width: 976px) {
+  /* line 836, ../../src/styles/shared/_navigation.scss */
+  .btn--toggler {
+    margin-bottom: 0.25em;
+  }
+}
+
+/* line 877, ../../src/styles/shared/_navigation.scss */
+.btn--toggler span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  float: right;
+  border-left: 3px solid white;
+  border-bottom: 3px solid white;
+  margin-right: 10px;
+  margin-top: -5px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transition: all 0.250s ease-in-out;
+  -moz-transition: all 0.250s ease-in-out;
+  -o-transition: all -0.75s ease-in-out;
+  transition: all 0.250s ease-in-out;
+}
+@media (min-width: 61em) {
+  /* line 877, ../../src/styles/shared/_navigation.scss */
+  .btn--toggler span {
+    display: none;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .btn--toggler span {
+  display: none;
+}
+/* line 901, ../../src/styles/shared/_navigation.scss */
+.btn--toggler span.active {
+  margin-top: 5px;
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+/* line 909, ../../src/styles/shared/_navigation.scss */
+.toggled-content {
+  display: none;
+}
+@media (min-width: 61em) {
+  /* line 909, ../../src/styles/shared/_navigation.scss */
+  .toggled-content {
+    display: block;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .toggled-content {
+  display: block;
+}
+
+/* line 918, ../../src/styles/shared/_navigation.scss */
+.navigation__item--title {
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1;
+  display: block;
+  margin-top: 0.1em;
+  padding: 0.75em 1.25em;
+  text-align: left;
+  color: #fff;
+  background: #d68a69;
+  cursor: pointer;
+}
+@media (min-width: 61em) {
+  /* line 918, ../../src/styles/shared/_navigation.scss */
+  .navigation__item--title {
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 1;
+    display: inline-block;
+    margin-top: 0;
+    padding: 0;
+    color: #000;
+    background: none;
+    cursor: default;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation__item--title {
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 1;
+  display: inline-block;
+  margin-top: 0;
+  padding: 0;
+  color: #000;
+  background: none;
+  cursor: default;
+}
+
+/* line 941, ../../src/styles/shared/_navigation.scss */
+.navigation__item--title span {
+  display: inline-block;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  float: right;
+  border-left: 3px solid white;
+  border-bottom: 3px solid white;
+  margin-right: 10px;
+  margin-top: -5px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transition: all 0.250s ease-in-out;
+  -moz-transition: all 0.250s ease-in-out;
+  -o-transition: all -0.75s ease-in-out;
+  transition: all 0.250s ease-in-out;
+}
+@media (min-width: 61em) {
+  /* line 941, ../../src/styles/shared/_navigation.scss */
+  .navigation__item--title span {
+    display: none;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation__item--title span {
+  display: none;
+}
+/* line 966, ../../src/styles/shared/_navigation.scss */
+.navigation__item--title span.active {
+  margin-top: 5px;
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+/* line 974, ../../src/styles/shared/_navigation.scss */
+.navigation__container--menus {
+  width: 100% !important;
+  padding-bottom: 1.5em !important;
+}
+/* line 978, ../../src/styles/shared/_navigation.scss */
+.navigation__container--menus .navigation__item--title {
+  margin-right: 1rem;
+}
+/* line 984, ../../src/styles/shared/_navigation.scss */
+.navigation__container--menus .navigation__item--menus .navigation__item--menus-link {
+  color: #d68a69;
+}
+/* line 987, ../../src/styles/shared/_navigation.scss */
+.navigation__container--menus .navigation__item--menus .navigation__item--menus-link:visited {
+  color: #d68a69;
+  text-decoration: none;
+}
+/* line 992, ../../src/styles/shared/_navigation.scss */
+.navigation__container--menus .navigation__item--menus .navigation__item--menus-link.selected {
+  color: #000;
+  border-bottom: 2px solid #000;
+  padding-bottom: 2px;
+  margin: auto;
+}
+/* line 998, ../../src/styles/shared/_navigation.scss */
+.navigation__container--menus .navigation__item--menus .navigation__item--menus-link.selected:visited {
+  color: #010101;
+}
+
+/* line 1006, ../../src/styles/shared/_navigation.scss */
+.navigation__container--about {
+  position: relative;
+}
+/* line 1009, ../../src/styles/shared/_navigation.scss */
+.navigation__container--about.stuck {
+  position: fixed;
+  top: -2px;
+  left: 0;
+  background: #FFF;
+  z-index: 10;
+  padding: 0 !important;
+}
+/* line 1017, ../../src/styles/shared/_navigation.scss */
+.navigation__container--about.stuck ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 1022, ../../src/styles/shared/_navigation.scss */
+.navigation__container--about.stuck li:first-child {
+  margin-top: 0;
+  border-top: 0;
+  padding-top: 0;
+}
+/* line 1029, ../../src/styles/shared/_navigation.scss */
+.navigation__container--about li:first-child {
+  width: 100%;
+  clear: both;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (min-width: 977px) {
+  /* line 1029, ../../src/styles/shared/_navigation.scss */
+  .navigation__container--about li:first-child {
+    width: auto;
+    clear: none;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation__container--about li:first-child {
+  width: auto;
+  clear: none;
+}
+
+/* line 1043, ../../src/styles/shared/_navigation.scss */
+.navigation__container--about .toggle-content {
+  display: none;
+}
+@media (min-width: 977px) {
+  /* line 1043, ../../src/styles/shared/_navigation.scss */
+  .navigation__container--about .toggle-content {
+    display: block !important;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation__container--about .toggle-content {
+  display: block !important;
+}
+
+/* line 1053, ../../src/styles/shared/_navigation.scss */
+.navigation--primary--menus .navigation__item--title {
+  margin-right: 0px;
+}
+@media (min-width: 61em) {
+  /* line 1053, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary--menus .navigation__item--title {
+    float: left;
+    padding-top: 6px;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation--primary--menus .navigation__item--title {
+  float: left;
+  padding-top: 6px;
+}
+
+/* line 1063, ../../src/styles/shared/_navigation.scss */
+.no-flexbox .navigation--primary--menus li {
+  line-height: 1 !important;
+}
+
+@media (min-width: 61em) {
+  /* line 1067, ../../src/styles/shared/_navigation.scss */
+  .no-flexbox .navigation--primary--menus .navigation__item--title {
+    margin-right: 2.5%;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .no-flexbox .navigation--primary--menus .navigation__item--title {
+  margin-right: 2.5%;
+}
+
+/* line 1073, ../../src/styles/shared/_navigation.scss */
+.lt-ie9 .navigation--primary--menus .navigation__item--title {
+  margin-right: 2.5%;
+}
+
+@media (max-height: 400px) {
+  /* line 1078, ../../src/styles/shared/_navigation.scss */
+  .navigation__container--menus .navigation__item--menus {
+    width: 50%;
+  }
+}
+
+@media (min-width: 61em) {
+  /* line 1084, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary--menus .toggled-content {
+    overflow: hidden;
+    *zoom: 1;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation--primary--menus .toggled-content {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+@media (min-width: 61em) and (max-width: 61em) {
+  /* line 1091, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary--menus.menu-nav {
+    padding-bottom: 1.5em;
+  }
+}
+/* line 1096, ../../src/styles/shared/_navigation.scss */
+.navigation--primary.menu-nav .navigation__item--menus {
+  width: 100%;
+}
+@media (min-width: 61em) {
+  /* line 1096, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary.menu-nav .navigation__item--menus {
+    width: auto;
+    font-size: 99%;
+    clear: none;
+    float: right;
+    margin-right: 0;
+    margin-left: 1.7%;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation--primary.menu-nav .navigation__item--menus {
+  width: auto;
+  font-size: 99%;
+  clear: none;
+  float: right;
+  margin-right: 0;
+  margin-left: 1.7%;
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* line 1096, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary.menu-nav .navigation__item--menus {
+    font-size: 80%;
+  }
+}
+
+@media (min-width: 61em) {
+  /* line 1110, ../../src/styles/shared/_navigation.scss */
+  .no-flexbox .navigation--primary.menu-nav .navigation__item--menus {
+    float: left;
+    margin-left: 0;
+    margin-right: 10px;
+    padding-right: 15px;
+    position: relative;
+  }
+  /* line 1118, ../../src/styles/shared/_navigation.scss */
+  .no-flexbox .navigation--primary.menu-nav .navigation__item--menus:after {
+    right: 0;
+    top: 0;
+    float: right;
+    margin-left: 15px;
+  }
+}
+
+/* line 1127, ../../src/styles/shared/_navigation.scss */
+.lt-ie9 .navigation--primary.menu-nav .navigation__item--menus {
+  float: left;
+  margin-left: 0;
+  margin-right: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+/* line 1134, ../../src/styles/shared/_navigation.scss */
+.lt-ie9 .navigation--primary.menu-nav .navigation__item--menus:after {
+  right: 0;
+  top: 0;
+  float: right;
+  margin-left: 15px;
+}
+
+/* line 1144, ../../src/styles/shared/_navigation.scss */
+.menu-nav .toggled-content {
+  display: none;
+}
+@media (min-width: 61em) {
+  /* line 1144, ../../src/styles/shared/_navigation.scss */
+  .menu-nav .toggled-content {
+    display: block;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .menu-nav .toggled-content {
+  display: block;
+}
+/* line 1152, ../../src/styles/shared/_navigation.scss */
+.menu-nav .navigation__item--title {
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1;
+  display: block;
+  margin-top: 0.1em;
+  padding: 0.75em 1.25em;
+  text-align: left;
+  color: #fff;
+  background: #d68a69;
+  cursor: pointer;
+  float: none;
+}
+@media (min-width: 61em) {
+  /* line 1152, ../../src/styles/shared/_navigation.scss */
+  .menu-nav .navigation__item--title {
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 1;
+    display: inline-block;
+    margin-top: 0;
+    padding: 0;
+    color: #d68a69;
+    background: none;
+    cursor: default;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .menu-nav .navigation__item--title {
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 1;
+  display: inline-block;
+  margin-top: 0;
+  padding: 0;
+  color: #d68a69;
+  background: none;
+  cursor: default;
+}
+/* line 1176, ../../src/styles/shared/_navigation.scss */
+.menu-nav .navigation__item--title span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  float: right;
+  border-left: 3px solid white;
+  border-bottom: 3px solid white;
+  margin-right: 10px;
+  margin-top: -5px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transition: all 0.250s ease-in-out;
+  -moz-transition: all 0.250s ease-in-out;
+  -o-transition: all -0.75s ease-in-out;
+  transition: all 0.250s ease-in-out;
+}
+@media (min-width: 61em) {
+  /* line 1176, ../../src/styles/shared/_navigation.scss */
+  .menu-nav .navigation__item--title span {
+    display: none;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .menu-nav .navigation__item--title span {
+  display: none;
+}
+/* line 1198, ../../src/styles/shared/_navigation.scss */
+.menu-nav .navigation__item--title span.active {
+  margin-top: 5px;
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+/* line 1207, ../../src/styles/shared/_navigation.scss */
+.navigation--primary--menus.menu-nav .navigation__container {
+  -webkit-justify-content: initial;
+  justify-content: initial;
+  display: block;
+}
+@media (min-width: 61em) and (max-width: 61em) {
+  /* line 1207, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary--menus.menu-nav .navigation__container {
+    text-align: center;
+  }
+}
+@media (min-width: 61em) {
+  /* line 1207, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary--menus.menu-nav .navigation__container {
+    text-align: left;
+  }
+}
+
+@media (min-width: 61em) {
+  /* line 1222, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary--menus.menu-nav .navigation__item--title {
+    float: none;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation--primary--menus.menu-nav .navigation__item--title {
+  float: none;
+}
+
+/* line 1229, ../../src/styles/shared/_navigation.scss */
+.navigation--primary--menus.menu-nav .navigation__item--menus.navigation__item--dot,
+.navigation--primary--menus.menu-nav .navigation__item--menus.navigation__item--last {
+  margin-top: 1.35rem;
+}
+/* line 1233, ../../src/styles/shared/_navigation.scss */
+.navigation--primary--menus.menu-nav .navigation__item--menus.navigation__item--dot:after,
+.navigation--primary--menus.menu-nav .navigation__item--menus.navigation__item--last:after {
+  display: none;
+}
+@media (min-width: 61em) {
+  /* line 1229, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary--menus.menu-nav .navigation__item--menus.navigation__item--dot,
+  .navigation--primary--menus.menu-nav .navigation__item--menus.navigation__item--last {
+    margin-left: 0;
+    margin-right: 1.5em;
+    margin-top: 0;
+    position: relative;
+    display: inline-block;
+    float: none;
+    -webkit-flex-grow: 0;
+    flex-grow: 0;
+    -ms-flex: 0;
+  }
+  /* line 1248, ../../src/styles/shared/_navigation.scss */
+  .navigation--primary--menus.menu-nav .navigation__item--menus.navigation__item--dot:after,
+  .navigation--primary--menus.menu-nav .navigation__item--menus.navigation__item--last:after {
+    content: '';
+    display: block;
+    background: url(../img/img-for-prezzo/circle-navigation-spacer.png) center center no-repeat transparent;
+    height: 8px;
+    width: 2em;
+    z-index: 10;
+    position: absolute;
+    right: -1.75em;
+    top: 50%;
+    margin-top: -4px;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .navigation--primary--menus.menu-nav .navigation__item--menus.navigation__item--dot, .lt-ie9
+.navigation--primary--menus.menu-nav .navigation__item--menus.navigation__item--last {
+  margin-left: 0;
+  margin-right: 1.5em;
+  margin-top: 0;
+  position: relative;
+  display: inline-block;
+  float: none;
+  -webkit-flex-grow: 0;
+  flex-grow: 0;
+  -ms-flex: 0;
+}
+/* line 1248, ../../src/styles/shared/_navigation.scss */
+.lt-ie9 .navigation--primary--menus.menu-nav .navigation__item--menus.navigation__item--dot:after, .lt-ie9
+.navigation--primary--menus.menu-nav .navigation__item--menus.navigation__item--last:after {
+  content: '';
+  display: block;
+  background: url(../img/img-for-prezzo/circle-navigation-spacer.png) center center no-repeat transparent;
+  height: 8px;
+  width: 2em;
+  z-index: 10;
+  position: absolute;
+  right: -1.75em;
+  top: 50%;
+  margin-top: -4px;
+}
+
+/* line 1263, ../../src/styles/shared/_navigation.scss */
+.navigation--primary--menus.menu-nav .navigation__item--menus.navigation__item--last {
+  padding-right: 0;
+  margin-right: 0;
+}
+/* line 1267, ../../src/styles/shared/_navigation.scss */
+.navigation--primary--menus.menu-nav .navigation__item--menus.navigation__item--last:after {
+  display: none;
+}
+
+/*.lt-ie9 .navigation--menu-categories__inner-background,*/
+    /*.lt-ie9 .navigation--menu-categories__inner {
+	width: 200px !important;
+}*/
+/* line 1276, ../../src/styles/shared/_navigation.scss */
+.download-menu {
+  overflow: hidden;
+  margin-bottom: 0;
+}
+@media (min-width: 61em) {
+  /* line 1276, ../../src/styles/shared/_navigation.scss */
+  .download-menu {
+    max-width: 175px;
+  }
+}
+/* line 92, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.lt-ie9 .download-menu {
+  max-width: 175px;
+}
+/* line 1284, ../../src/styles/shared/_navigation.scss */
+.download-menu li {
+  background: #d68a69;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.125;
+  text-align: center;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+/* line 1292, ../../src/styles/shared/_navigation.scss */
+.download-menu li a {
+  color: white;
+  display: block;
+  padding: 0.4em 1em;
+}
+/* line 1298, ../../src/styles/shared/_navigation.scss */
+.download-menu li a:visited {
+  color: #FFFFF0;
+}
+/* line 1302, ../../src/styles/shared/_navigation.scss */
+.download-menu li a:hover {
+  background: #b97050;
+}
+
+/* line 1308, ../../src/styles/shared/_navigation.scss */
+.lt-ie9 .download-menu {
+  width: 130px;
+}
+
+@media (max-width: 976px) {
+  /* line 1312, ../../src/styles/shared/_navigation.scss */
+  body.menu-open {
+    overflow: hidden;
+  }
+}
+
+/* line 1321, ../../src/styles/shared/_navigation.scss */
+.navigation--primary .navigation-items {
+  position: fixed;
+  background-color: #fff;
+  margin-left: -4%;
+  width: 70vw;
+  height: calc(100vh - 100px);
+  padding-bottom: 50px;
+  overflow: auto;
+  margin-left: -80%;
+  transition: margin 0.2s linear;
+  text-transform: none;
+}
+/* line 1333, ../../src/styles/shared/_navigation.scss */
+.navigation--primary .navigation-items.change-location {
+  position: fixed;
+  height: 0;
+  bottom: 0;
+  margin-bottom: 0;
+}
+
+/* line 1342, ../../src/styles/shared/_navigation.scss */
+.menu-open .navigation--primary .navigation-items {
+  visibility: visible;
+  margin-left: -9%;
+}
+
+/* line 1347, ../../src/styles/shared/_navigation.scss */
+.menu-open .navigation--primary .bg {
+  position: fixed;
+  z-index: -1;
+  width: 100vw;
+  height: calc(100vh - 50px);
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.close {
+	opacity: 1;
+}
+
+.position-close{
+	position: fixed;
+}
+
+.mobile-bold {
+	margin-top: 27px;
+}
+
+.location-button{
+	text-decoration:underline;
+	color: black;
+}

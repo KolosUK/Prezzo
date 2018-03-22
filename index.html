@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="css/iframe.css"> 
   <link rel="stylesheet" href="css/prezzo.css"> 
   <link rel="stylesheet" href="css/mobile.css"> 
+  <link rel="stylesheet" href="css/menu.css"> 
 
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -29,46 +30,50 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 <!--  ---Facebook social end---   -->
-<header class="position-center">
+<!--<header class="position-center">
 <a href="https://www.prezzorestaurants.co.uk"><img class="logo" src="./img/img-for-prezzo/PrezzoBoxLogo.jpg"></a>  
-</header> 
-<!-- <header class="banner" role="banner">
-           <div class="grid-wrapper">
+</header> -->
+<header class="banner" role="banner">
+            <div class="grid-wrapper">
                 <nav class="navigation navigation--primary">
     <div class="navigation__toggle" style="visibility: visible;">
         
         <i class="fa fa-bars open" aria-hidden="true"></i>
-        <i class="fa fa-times close" aria-hidden="true"></i>
+        <i class="fa fa-times close position-close" aria-hidden="true"></i>
         <div class="open">menu</div>
         <div class="close mobile-bold">close</div>
     </div>
+
     <ul class="navigation__container">
         <li class="navigation__item navigation__item--home">
             <a href="/">
                 
-                <img src="/Static/images/brand/prezzo-box-logo.svg" alt="Back to home page">
+
+                <img src="./img/img-for-prezzo/PrezzoBoxLogo.jpg" alt="Back to home page">
                 
                 
+
             </a>
         </li>
                     <li class="mobile-hidden navigation__item navigation__item--1 js__hide-nav-item navigation__item  navigation__item--hide">
-                        <a href="/menus/">Menus</a>
+                        <a href="/easter/">Easter</a>
                     </li>
                     <li class="mobile-hidden navigation__item navigation__item--2 js__hide-nav-item navigation__item  navigation__item--hide">
-                        <a href="/find-and-book/">Find and Book</a>
+                        <a href="/menus/">Menus</a>
                     </li>
                     <li class="mobile-hidden navigation__item navigation__item--3 js__hide-nav-item navigation__item  navigation__item--hide">
-                        <a href="/offers/">Offers</a>
+                        <a href="/find-and-book/">Find and Book</a>
                     </li>
                     <li class="mobile-hidden navigation__item navigation__item--4 js__hide-nav-item navigation__item  navigation__item--hide">
-                        <a href="/orderonline/">Delivery</a>
+                        <a href="/offers/">Offers</a>
                     </li>
                     <li class="mobile-hidden navigation__item navigation__item--5 js__hide-nav-item navigation__item  navigation__item--hide">
-                        <a href="https://orders-prezzo.ordertalk.net/#/">Takeaway</a>
+                        <a href="/orderonline/">Order Online</a>
                     </li>
                     <li class="mobile-hidden navigation__item navigation__item--6 js__hide-nav-item navigation__item  navigation__item--hide">
-                        <a href="https://offers.prezzorestaurants.co.uk/Default.aspx?CampaignId=8696">SIGN UP</a>
+                        <a href="https://offers.prezzorestaurants.co.uk/Default.aspx?CampaignId=8696">Sign Up</a>
                     </li>
+
     </ul>
     
     <input data-name="hiddenCommand" id="command" name="command" type="hidden" value="jsNotRun">
@@ -81,12 +86,14 @@
             <label for="txtAddress" class="find-and-book__label">
                 Find a Prezzo
             </label>
+
         
             <input class="find-and-book__address-field" data-name="js-geolocation" id="txtAddress" name="txtAddress" onkeyup="FindCoordinates(this.className);" placeholder="Enter your postcode or town" type="text" value="" autocomplete="off">
         
         
             <button type="submit" id="btnSearch" formmethod="post" role="button" class="find-and-book_go-btn">Go</button>
         
+
         
             <button type="button" id="btnNearestMob" onclick="javascript: GetLocation();" class="find-and-book__link--mob">Nearest</button>
         
@@ -95,15 +102,20 @@
                     <span>Nearest</span>
                 </button>
             </div>
+
             <input data-name="hiddenCommand" id="command" name="command" type="hidden" value="jsNotRun">
             <input data-name="hiddenLong" id="txtGeocodeLongitude" name="txtGeocodeLongitude" type="hidden" value="0">
             <input data-name="hiddenLat" id="txtGeocodeLatitude" name="txtGeocodeLatitude" type="hidden" value="0">
         </div>
     </form>
+
     <div class="desktop-hidden marker">
         <i class="fa fa-map-marker" onclick="javascript: GetLocation();" aria-hidden="true"></i>
     </div>
     <ul class="navigation-items desktop-hidden">
+                        <li class="navigation__item ">
+                            <a href="/easter/">Easter</a>
+                        </li>
                         <li class="navigation__item ">
                             <div onclick="GetViewMenuPage();">Menus</div>
                         </li>
@@ -114,13 +126,10 @@
                             <a href="/offers/">Offers</a>
                         </li>
                         <li class="navigation__item ">
-                            <a href="/orderonline/">Delivery</a>
+                            <a href="/orderonline/">Order Online</a>
                         </li>
                         <li class="navigation__item ">
-                            <a href="https://orders-prezzo.ordertalk.net/#/">Takeaway</a>
-                        </li>
-                        <li class="navigation__item ">
-                            <a href="https://offers.prezzorestaurants.co.uk/Default.aspx?CampaignId=8696">SIGN UP</a>
+                            <a href="https://offers.prezzorestaurants.co.uk/Default.aspx?CampaignId=8696">Sign Up</a>
                         </li>
  
     </ul>
@@ -128,13 +137,18 @@
         <li class="navigation__item navigation__item-change_location">
             <i class="fa fa-map-marker get-location" aria-hidden="true"></i>
             <b id="current-location"></b>
-            - <span class="get-location">Get my location</span>
+            - <a class="get-location location-button">Get my location</a>
         </li>
     </ul>
     <div class="bg"></div>
 </nav>
+
             </div>
-        </header>-->
+        </header>
+        <br>
+        <br>
+        <br>
+        <br>
 <div class="container container-white">
       <div class="container container-contant">
         <div class="position-center logoPosition">
@@ -219,4 +233,5 @@
 </div>
 </body>
 <script type="text/javascript" src="js/one-page.js"></script>
+<script type="text/javascript" src="js/google-maps-loader.js"></script>
 </html>
