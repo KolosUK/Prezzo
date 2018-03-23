@@ -65,12 +65,12 @@
 	}
 
 	.advertising {
-    	width: 117%;
+    	width: 111%;
     	margin-left: -4%;
 	}
 
 	hgroup {
-    	margin-top: -31%;
+    	margin-top: -28%;
 	}
 
 	.logoPrezzo {
@@ -114,7 +114,7 @@
 	}
 
 	hgroup {
-    	margin-top: -35%;
+    	margin-top: -31%;
 	}
 
 	.social-button {
@@ -135,15 +135,11 @@
 	}
 
 	.col-xs-1 {
-		width: 5%
-	}
-
-	.col-xs-1 {
-		width: 5%
+		width: 12%
 	}
 
 	.col-xs-11 {
-    	width: 89%;
+    	width: 80%;
 	}
 
 }
@@ -162,7 +158,7 @@
 	}
 
 	hgroup {
-    	margin-top: -45%;
+    	margin-top: -38%;
 	}
 
 }
