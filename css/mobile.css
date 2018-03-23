@@ -10,7 +10,7 @@
 	}
 
 	.logoName {
-    	margin-top: -18%;
+    	margin-top: -17%;
 	}
 
 	.advertising {
@@ -29,6 +29,18 @@
     	margin-top: -14%;
     	padding-bottom: 20px;
 	}
+
+	.logoPrezzo {
+    	margin-top: -7%;
+	}
+
+	.logoPosition > img {
+		height: 180px;
+	}
+
+	.logoName > strong {
+		font-size: 1.8em;
+	}
 }
 @media screen and (max-width: 767px){ 
 
@@ -41,6 +53,10 @@
 	hgroup {
     	margin-top: -16%;
 	}
+
+	.logoPrezzo {
+    	margin-top: -10%;
+	}
 }
 @media screen and (max-width: 680px){
 
@@ -48,59 +64,57 @@
     	margin-top: -23%;
 	}
 
-	hgroup {
-    	margin-top: -17%;
+	.advertising {
+    	width: 117%;
+    	margin-left: -4%;
 	}
 
-	.advertising {
-    	width: 76%;
-    	margin-left: 14%;
+	hgroup {
+    	margin-top: -31%;
+	}
+
+	.logoPrezzo {
+    	margin-top: -10%;
 	}
 }
 
 @media screen and (max-width: 550px) {
 
-	h2{
-	    font-size: 0.9rem;
-	}
-
 	.logoName {
     	margin-top: -27%;
+	}
+
+	.logoPrezzo {
+    	margin-top: -10%;
 	}
 }
 
 @media screen and (max-width: 450px) { 
 
 	.logoName {
-   		margin-top: -27%;
-	}
-
-	h2 {
-    	font-size: 0.7rem;
+   		margin-top: -32%;
 	}
 
 	.logoPrezzo {
     	width: 380px;
+    	margin-top: -10%;
 	}
 }
 
 @media screen and (max-width: 400px) { 
 
 	.logoPrezzo {
-    	width: 300px;
+    	width: 350px;
+    	margin-left: -2%;
 	}
 
 	.advertising {
-    	width: 105%;
-   		margin-left: 0%;
+   		width: 127%;
+    	margin-left: -11%;
 	}
 
 	hgroup {
-    	margin-top: -24%;
-	}
-
-	strong{
-		font-size: 16px;
+    	margin-top: -35%;
 	}
 
 	.social-button {
@@ -108,14 +122,47 @@
 	}
 
 	.logoName {
-   		margin-top: -26%;
+   		margin-top: -36%;
 	}
 
-	.logoName > strong {
-		font-size: 1em;
-	}
 	.icon-size {
     	width: 32px;
    		margin-bottom: 0;
 	}
+
+	.logoPrezzo {
+    	margin-top: -10%;
+	}
+
+	.col-xs-1 {
+		width: 5%
+	}
+
+	.col-xs-1 {
+		width: 5%
+	}
+
+	.col-xs-11 {
+    	width: 89%;
+	}
+
+}
+
+
+@media screen and (max-width: 350px) { 
+
+	.logoName {
+    	margin-top: -44%;
+	}
+
+	.logoPrezzo {
+    	margin-top: -10%;
+    	width: 320px;
+    	margin-left: -8%;
+	}
+
+	hgroup {
+    	margin-top: -45%;
+	}
+
 }

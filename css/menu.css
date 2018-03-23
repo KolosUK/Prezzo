@@ -171,6 +171,7 @@
   .banner {
     background: rgba(255, 255, 255, 0.97);
     box-shadow: 0 2px 3px #c1c1c1;
+    width: 104.5%;
   }
 }
 @media (min-width: 977px) {
@@ -2407,7 +2408,7 @@ a.navigation__item__filter:hover {
   background-color: #fff;
   margin-left: -4%;
   width: 70vw;
-  height: calc(100vh - 100px);
+  height: 100vh;
   padding-bottom: 50px;
   overflow: auto;
   margin-left: -80%;
@@ -2425,7 +2426,7 @@ a.navigation__item__filter:hover {
 /* line 1342, ../../src/styles/shared/_navigation.scss */
 .menu-open .navigation--primary .navigation-items {
   visibility: visible;
-  margin-left: -9%;
+  margin-left: -32px;
 }
 
 /* line 1347, ../../src/styles/shared/_navigation.scss */
@@ -2433,7 +2434,7 @@ a.navigation__item__filter:hover {
   position: fixed;
   z-index: -1;
   width: 100vw;
-  height: calc(100vh - 50px);
+  height: 100vh;
   background: rgba(0, 0, 0, 0.8);
 }
 

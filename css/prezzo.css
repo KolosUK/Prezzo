@@ -33,7 +33,7 @@ h1,span, .logoName > strong{
  }
 
 .logoName > strong{
-	font-size: 1.5em;
+	font-size: 1.7em;
 }
 
 .social > h4{
@@ -69,7 +69,7 @@ p{
 	font-size: 1rem;
 }
 .logoPosition{
-	margin-top: -2%;
+	margin-top: -3%;
 }
 
 .logoPrezzo{
@@ -143,7 +143,7 @@ i{
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: calc(100vh - 64px);
+    height: calc(100vh - 96px);
 }
 
 hr{
@@ -210,6 +210,10 @@ small {
 
 .list-inline>li{
 	padding: 0;
+}
+
+.col-xs-1 {
+	margin-top: 5px;
 }
  
  header{
@@ -300,12 +304,13 @@ footer > p{
 }
 
 .logoName{
-    margin-top: -13%;
+    margin-top: -14%;
 }
 
 .advertising{
 	width: 450px;
     margin-top: -10%;
+    height: 180px;
 }
 }
 
@@ -322,11 +327,12 @@ footer > p{
 }
 
 .logoName{
-    margin-top: -11%;
+    margin-top: -11.6%;
 }
 
 .advertising{
 	width: 500px;
     margin-top: -10%;
+    height: 180px;
 }
 }
