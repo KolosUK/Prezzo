@@ -72,10 +72,6 @@ p{
 	margin-top: -3%;
 }
 
-.logoPrezzo{
- 	width: 500px;
-}
-
 .icon-view{
 	background-color: white;
 }
@@ -120,10 +116,6 @@ div > a > img {
     padding-bottom: 10px;
     outline: none;
     margin-bottom: 15px;
-}
-
-hgroup{
-    margin-top: -17%;
 }
 .position-center{
 	text-align: center;
@@ -304,13 +296,30 @@ footer > p{
 }
 
 .logoName{
-    margin-top: -14%;
+    margin-top: -12%;
 }
 
 .advertising{
 	width: 450px;
     margin-top: -10%;
     height: 140px;
+}
+
+.logoName > strong {
+    font-size: 1em;
+}
+
+hgroup {
+    margin-top: -20%;
+}
+
+h4{
+	font-size: 0.9em;
+}
+
+.logoPrezzo {
+    width: 410px;
+    height: 159px;
 }
 }
 
@@ -334,5 +343,22 @@ footer > p{
 	width: 500px;
     margin-top: -10%;
     height: 140px;
+}
+
+.logoPrezzo {
+    width: 500px;
+    height: auto;
+}
+
+hgroup{
+    margin-top: -17%;
+}
+
+h4{
+	font-size: 1em;
+}
+
+.logoName > strong {
+    font-size: 1.5em;
 }
 }

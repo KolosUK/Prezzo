@@ -171,7 +171,7 @@
   .banner {
     background: rgba(255, 255, 255, 0.97);
     box-shadow: 0 2px 3px #c1c1c1;
-    width: 104.5%;
+    width: 100%;
   }
 }
 @media (min-width: 977px) {
