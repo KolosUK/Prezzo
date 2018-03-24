@@ -1015,7 +1015,7 @@ This contains styles for a resturant picker in the footer
 .navigation--primary .navigation__toggle {
   visibility: hidden;
   position: absolute;
-  margin-left: 0.5em;
+  margin-left: -10px;
   top: .25em;
   /*color: #000;
   visibility: hidden;
