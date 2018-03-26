@@ -283,6 +283,15 @@ footer > p{
 	margin-bottom: 0;
 }
 
+
+.form-control{
+	font-size: 13px;
+}
+
+p{
+	font-size: 0.9rem;
+}
+
  @media screen and (min-width: 995px) , screen and (max-width: 1200px) {
 	.about{
 	background-color: rgb(0,153,153);
