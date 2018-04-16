@@ -15,41 +15,48 @@ textarea{
 }
 
  @font-face {
-    font-family: Gloss_And_Bloom; /* Имя шрифта */
-    src: url(Gloss_And_Bloom.ttf); /* Путь к файлу со шрифтом */
+  font-family: "UniversLTW01-47LightCn";
+  src: url("fonts/296c59c2-74b0-41c1-bcfd-23d22a713f86.eot?#iefix");
+  src: url("fonts/296c59c2-74b0-41c1-bcfd-23d22a713f86.eot?#iefix") format("eot"), url("fonts/d4a01ff3-d1c6-49c0-a4e8-350a6eef9880.woff2") format("woff2"), url("fonts/609beecf-8d23-4a8c-bbf5-d22ee8db2fc9.woff") format("woff"), url("fonts/a6595b8d-d4a3-4f01-bf21-0b53617d4b1c.ttf") format("truetype"), url("fonts/1cd9ef2f-b358-4d39-8628-6481d9e1c8ce.svg#1cd9ef2f-b358-4d39-8628-6481d9e1c8ce") format("svg");
    }
 
-h1,span, .logoName > strong{
-   font-family: Gloss_And_Bloom;
+h1,span{
+  font-family: 'UniversLTW01-47LightCn', helvetica, arial, sans-serif;
  }
 
  @font-face {
-    font-family: Biko_Bold; /* Имя шрифта */
-    src: url(Biko_Bold.otf); /* Путь к файлу со шрифтом */
+    font-family: 'UniversLTW01-47LightCn', helvetica, arial, sans-serif;
    }
 
  h2,h4{
-   font-family: Biko_Bold;
+font-family: 'UniversLTW01-47LightCn', helvetica, arial, sans-serif;
  }
 
 .logoName > strong{
 	font-size: 1.7em;
 }
 
+ @font-face {
+    font-family: Gloss_And_Bloom; /* Имя шрифта */
+    src: url(Gloss_And_Bloom.ttf); /* Путь к файлу со шрифтом */
+   }
+.logoName > strong{
+   font-family: Gloss_And_Bloom;
+ }
+
 .social > h4{
    font-family: Biko_Bold;
 }
 @font-face {
-    font-family: Biko_Regular; /* Имя шрифта */
-    src: url(Biko_Regular.otf); /* Путь к файлу со шрифтом */
+font-family: 'UniversLTW01-47LightCn', helvetica, arial, sans-serif;
    }
 
  p, input, textarea, .fontBikoRegular{
-   font-family: Biko_Regular;
+font-family: 'UniversLTW01-47LightCn', helvetica, arial, sans-serif;
  }
 
 .social > p{
- 	font-family: Biko_Regular;
+font-family: 'UniversLTW01-47LightCn', helvetica, arial, sans-serif;
 }
 
 .mobile-size{
@@ -64,12 +71,6 @@ h1,span, .logoName > strong{
 
 .social > h4 {
 	color: white;
-}
-p{
-	font-size: 1rem;
-}
-.logoPosition{
-	margin-top: -3%;
 }
 
 .icon-view{
@@ -205,7 +206,7 @@ small {
 }
 
 .col-xs-1 {
-	margin-top: 5px;
+	margin-top: -5px;
 }
  
  header{
@@ -284,15 +285,7 @@ footer > p{
 }
 
 
-.form-control{
-	font-size: 13px;
-}
-
-p{
-	font-size: 0.9rem;
-}
-
- @media screen and (min-width: 995px) , screen and (max-width: 1200px) {
+ @media screen and (min-width: 1200px) , screen and (max-width: 1370px) {
 	.about{
 	background-color: rgb(0,153,153);
 	height: 283px;
@@ -305,11 +298,20 @@ p{
 }
 
 .logoName{
-    margin-top: -12%;
+    margin-top: -105px;
 }
 
+.logoPosition{
+	margin-top: -2%;
+}
+
+.form-control {
+    font-size: 13px;
+}
+
+
 .advertising{
-	width: 450px;
+	width: 475px;
     margin-top: -10%;
     height: 140px;
 }
@@ -318,8 +320,12 @@ p{
     font-size: 1em;
 }
 
+p{
+    font-size: 1em;
+}
+
 hgroup {
-    margin-top: -20%;
+    margin-top: -90px;
 }
 
 h4{
@@ -332,12 +338,17 @@ h4{
 }
 }
 
-@media screen and (min-width: 1200px) { 
+@media screen and (min-width: 1380px) { 
 .about{
 	background-color: rgb(0,153,153);
 	height: 250px;
 	color: white;
 }
+
+.logoPosition{
+	margin-top: -3%;
+}
+
 
 .white-block{
 	background-color: white;
@@ -348,8 +359,13 @@ h4{
     margin-top: -11.6%;
 }
 
+.form-control {
+    font-size: 15px;
+}
+
+
 .advertising{
-	width: 500px;
+	width: 560px;
     margin-top: -10%;
     height: 140px;
 }
@@ -361,6 +377,10 @@ h4{
 
 hgroup{
     margin-top: -17%;
+}
+
+p{
+    font-size: 20px;
 }
 
 h4{
