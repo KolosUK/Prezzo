@@ -46,6 +46,7 @@ font-family: 'UniversLTW01-47LightCn', helvetica, arial, sans-serif;
 
 .social > h4{
    font-family: Biko_Bold;
+   font-size: 25px;
 }
 @font-face {
 font-family: 'UniversLTW01-47LightCn', helvetica, arial, sans-serif;
@@ -313,7 +314,7 @@ footer{
 }
 
 .logoName > strong {
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 p{
@@ -322,10 +323,6 @@ p{
 
 hgroup {
     margin-top: -90px;
-}
-
-h4{
-	font-size: 0.9em;
 }
 
 .logoPrezzo {
@@ -338,11 +335,16 @@ h4{
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: calc(100vh - 40px);
+    height: calc(100vh - 20px);
 }
 
 .size-footer{
 	font-size: 15px;
+}
+
+h4 {
+    font-size: 1.1em;
+    font-weight: 600;
 }
 }
 
@@ -397,7 +399,8 @@ p{
 }
 
 h4{
-	font-size: 1em;
+    font-size: 1.2em;
+    font-weight: 600;
 }
 
 .logoName > strong {
