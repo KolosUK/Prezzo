@@ -131,14 +131,6 @@ i{
 	background-color: white;
 }
 
-.container-contant{
-	width: 99%;
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: calc(100vh - 96px);
-}
-
 hr{
 	border: 1px solid white;
 }
@@ -255,11 +247,6 @@ button {
 	box-shadow: 4px 3px 12px 2px rgba(0,0,0,0.75);
 }
 
-footer{
-    bottom: 0;
-    position: fixed;
-}
-
 .social-button {
     width: 40px;
     height: 38px;
@@ -284,6 +271,11 @@ footer > p{
 	margin-bottom: 0;
 }
 
+.style-link{
+	 font-weight: 600;
+	 text-decoration: underline!important;
+	 color: black!important;
+}
 
  @media screen and (min-width: 1200px) , screen and (max-width: 1370px) {
 	.about{
@@ -292,6 +284,10 @@ footer > p{
 	color: white;
 }
 
+footer{
+    bottom: 0;
+    position: relative;
+}
 .white-block {
     background-color: white;
     height: calc(100vh - 590px);
@@ -336,6 +332,14 @@ h4{
     width: 410px;
     height: 159px;
 }
+
+.container-contant{
+	width: 99%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 40px);
+}
 }
 
 @media screen and (min-width: 1380px) { 
@@ -343,6 +347,11 @@ h4{
 	background-color: rgb(0,153,153);
 	height: 250px;
 	color: white;
+}
+
+footer{
+    bottom: 0;
+    position: fixed;
 }
 
 .logoPosition{
@@ -389,5 +398,12 @@ h4{
 
 .logoName > strong {
     font-size: 1.5em;
+}
+.container-contant{
+	width: 99%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 96px);
 }
 }
