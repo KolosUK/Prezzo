@@ -41,6 +41,11 @@
 	.logoName > strong {
 		font-size: 1.8em;
 	}
+
+
+	.size-footer{
+		font-size: 10px;
+	}
 }
 @media screen and (max-width: 767px){ 
 
@@ -56,6 +61,10 @@
 
 	.logoPrezzo {
     	margin-top: -10%;
+	}
+
+	.size-footer{
+		font-size: 10px;
 	}
 }
 @media screen and (max-width: 680px){
@@ -76,6 +85,9 @@
 	.logoPrezzo {
     	margin-top: -10%;
 	}
+	.size-footer{
+		font-size: 10px;
+	}
 }
 
 @media screen and (max-width: 550px) {
@@ -86,6 +98,9 @@
 
 	.logoPrezzo {
     	margin-top: -10%;
+	}
+	.size-footer{
+		font-size: 10px;
 	}
 }
 
@@ -98,6 +113,9 @@
 	.logoPrezzo {
     	width: 380px;
     	margin-top: -10%;
+	}
+	.size-footer{
+		font-size: 10px;
 	}
 }
 
@@ -142,6 +160,9 @@
     	width: 80%;
 	}
 
+	.size-footer{
+		font-size: 10px;
+	}
 }
 
 
@@ -165,5 +186,7 @@
     width: 115%;
     margin-left: -6%;
 	}
-
+	.size-footer{
+		font-size: 10px;
+	}	
 }

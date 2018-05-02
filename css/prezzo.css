@@ -340,6 +340,10 @@ h4{
     background-size: cover;
     height: calc(100vh - 40px);
 }
+
+.size-footer{
+	font-size: 15px;
+}
 }
 
 @media screen and (min-width: 1380px) { 
@@ -405,5 +409,9 @@ h4{
     background-repeat: no-repeat;
     background-size: cover;
     height: calc(100vh - 96px);
+}
+
+.size-footer{
+	font-size: 15px;
 }
 }
