@@ -172,9 +172,9 @@
               <div class="col-xs-11"><p>Send this link to your friends & they get <span class="specialColor">£10</span> off. Simply copy & poste!</p></div>
             </div>
               <div class="input-group">
-            <input type="text" id="rost" class="form-control copy-input"/>
+            <input id="btn1" type="text" class="form-control copy-input js-copyinput"/>
             <span class="input-group-btn">
-              <button class="btn btn-copy btn-tooltip-input" data-clipboard-action="copy" data-clipboard-target="#rost" title="Сopied!" type="button"><i class="fa fa-link fa-2x"></i></button>
+              <button class="btn btn-copy btn-tooltip-input js-inputcopybtn" data-toggle="tooltip-input" data-clipboard-action="copy" data-clipboard-target="#btn1" title="Сopied!" type="button"><i class="fa fa-link fa-2x"></i></button>
             </span>
             </div>
             <br>
@@ -199,7 +199,7 @@
               <h4>HOW DO I SHARE?</h4>
               <br>
               <p>We've created a handy template that you can forward to a friend or update as you wish. Send via any social or email channel or simply copy & paste your unique sharing link & send to your friends!</p>
-              <textarea class="form-control js-copytextarea" rows="4">Discover Prezzo – the best Italian dining restaurant on the High street for pizza, pasta and vino. Use the unique link below and get a FREE £10 voucher when you first visit. Plus, if you use your unique code, I get a treat too. Saluti!</textarea>
+              <textarea id="txtar" class="form-control js-copytextarea" rows="4">Discover Prezzo – the best Italian dining restaurant on the High street for pizza, pasta and vino. Use the unique link below and get a FREE £10 voucher when you first visit. Plus, if you use your unique code, I get a treat too. Saluti!</textarea>
               <br>
               <ul class="list-inline position-center">
       <li><div data-href="https://www.prezzorestaurants.co.uk/" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.prezzorestaurants.co.uk%2F&amp;src=sdkpreparse"><img class="icon-size" src="img/img-for-prezzo/FB-f-Logo__blue_144.png" alt=""></a></div></li>
@@ -212,16 +212,16 @@
   '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=400');return false;"><img class="icon-size icon-view" src="img/img-for-prezzo/logo_gmail_128px.png" alt=""></a></li>
       <li><a target="_blank" href="http://profitquery.com/add-to/yahoo-mail/?title=prezzo&description=prezzo restaurants&url=www.prezzorestaurants.co.uk"><img class="icon-size icon-view" src="img/img-for-prezzo/if_yahoo_294646.png" alt=""></a></li>
       <li><a href="https://api.addthis.com/oexchange/0.8/forward/hotmail/offer?url=www.prezzorestaurants.co.uk&title=Prezzo&text=prezzo restaurant- &ct=1" target="_blank"><img class="icon-size" src="img/img-for-prezzo/Outlook-icon.png" alt=""></a></li>
-      <li><div class="social-button js-textareacopybtn btn-tooltip-area size-text" data-toggle="tooltip-area" title="Сopied!"><strong>Copy Text</strong></div></li>
+      <li><div class="social-button js-textareacopybtn btn-tooltip-area size-text" data-toggle="tooltip-area" data-clipboard-action="copy" data-clipboard-target="#txtar" title="Сopied!"><strong>Copy Text</strong></div></li>
       </ul>
       <br>
       <p class="witoutMargin">This will contain your unique sharing link</p>
             </div>
             <br>
             <div class="input-group">
-            <input type="text" class="form-control copy-input js-copyinputD"/>
+            <input id="btn2" type="text" class="form-control copy-input js-copyinputD"/>
             <span class="input-group-btn">
-              <button class="btn btn-copy js-inputcopybtnD btn-tooltip-inputD" data-toggle="tooltip-inputD" title="Сopied!" type="button"><i class="fa fa-link fa-2x"></i></button>
+              <button class="btn btn-copy js-inputcopybtnD btn-tooltip-inputD" data-toggle="tooltip-inputD" data-clipboard-action="copy" data-clipboard-target="#btn2" title="Сopied!" type="button"><i class="fa fa-link fa-2x"></i></button>
             </span>
             </div>
             <br>
@@ -243,7 +243,8 @@
 <script src="js/clipboard.min.js"></script>
 <script type="text/javascript" src="js/one-page.js"></script>
 <script>
-    var clipboard = new ClipboardJS('.btn-tooltip-input');
-    var clipboard = new ClipboardJS('.btn-tooltip-inputD');
+    var clipboard1 = new ClipboardJS('.btn-tooltip-input');
+    var clipboard2 = new ClipboardJS('.btn-tooltip-inputD');
+    var clipboard2 = new ClipboardJS('.btn-tooltip-area');
 </script>
 </html>
