@@ -172,9 +172,9 @@
               <div class="col-xs-11"><p>Send this link to your friends & they get <span class="specialColor">£10</span> off. Simply copy & poste!</p></div>
             </div>
               <div class="input-group">
-            <input type="text" class="form-control copy-input js-copyinput"/>
+            <input type="text" id="rost" class="form-control copy-input"/>
             <span class="input-group-btn">
-              <button class="btn btn-copy js-inputcopybtn btn-tooltip-input" data-toggle="tooltip-input" title="Сopied!" type="button"><i class="fa fa-link fa-2x"></i></button>
+              <button class="btn btn-copy btn-tooltip-input" data-clipboard-action="copy" data-clipboard-target="#rost" title="Сopied!" type="button"><i class="fa fa-link fa-2x"></i></button>
             </span>
             </div>
             <br>
@@ -240,5 +240,10 @@
     </div>
 </div>
 </body>
+<script src="js/clipboard.min.js"></script>
 <script type="text/javascript" src="js/one-page.js"></script>
+<script>
+    var clipboard = new ClipboardJS('.btn-tooltip-input');
+    var clipboard = new ClipboardJS('.btn-tooltip-inputD');
+</script>
 </html>
