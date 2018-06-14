@@ -418,6 +418,6 @@ h4{
 }
 }
 
-.icon-mail{
-	background-color: #ffffff;
+.navigation-items{
+	z-index: 10;
 }
