@@ -2425,14 +2425,15 @@ a.navigation__item__filter:hover {
 
 /* line 1342, ../../src/styles/shared/_navigation.scss */
 .menu-open .navigation--primary .navigation-items {
-  visibility: visible;
-  margin-left: -32px;
+  display: block;
+  margin-left: -36px;
+  z-index: 20;
 }
 
 /* line 1347, ../../src/styles/shared/_navigation.scss */
 .menu-open .navigation--primary .bg {
   position: fixed;
-  z-index: -1;
+  z-index: 5;
   width: 100vw;
   height: 100vh;
   background: rgba(0, 0, 0, 0.8);
