@@ -262,9 +262,10 @@ button {
 }
 
 .size-text{
-	padding-top: 1px;
+	padding-top: 3px;
 	color: white;
 	background-color: black;
+	height: 40px;
 }
 
 footer > p{
