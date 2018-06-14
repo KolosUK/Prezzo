@@ -255,6 +255,11 @@
                                 </a>
                             </li>
                             <li>
+                                <a href="" id="shareByMail">
+                                    <img class="icon-size" src="img/img-for-prezzo/e-mail.png" alt="">
+                                </a>
+                            </li>
+                            <li>
                                 <div class="social-button js-textareacopybtn btn-tooltip-area size-text" data-toggle="tooltip-area"
                                     data-clipboard-action="copy" data-clipboard-target="#sharingMessage" title="Сopied!">
                                     <strong>Copy Text</strong>
@@ -354,6 +359,13 @@
     // Twitter tweet
     $('#shareTwitter').on('click', function () {
         $(this).attr('href', 'https://twitter.com/share?text=' + 'Discover%20Prezzo%20-%20the%20best%20Italian%20restaurant%20for%20pizza,%20pasta%20%26%20vino!%20Use%20this%20unique%20link%20for%20%C2%A310%20off%20your%20first%20visit.&url=' + 'https%3A%2F%2Foffers.prezzorestaurants.co.uk%2Fdefault.aspx%3FReferalCode%3DRUHMPWAQMT');
+    });
+</script>
+<script type="text/javascript">
+    // Email client
+    $('#shareByMail').on('click', function () {
+        var body = $('#sharingMessage').val();
+        $(this).attr('href', 'mailto:?Subject=Discover%20Prezzo!&body=' + encodeURIComponent(body));
     });
 </script>
 <script>
