@@ -222,42 +222,41 @@
                         <br>
                         <p>We've created a handy template that you can forward to a friend or update as you wish. Send via any
                             social or email channel or simply copy & paste your unique sharing link & send to your friends!</p>
-                        <textarea id="txtar" class="form-control js-copytextarea" rows="4">Discover Prezzo – the best Italian dining restaurant on the High street for pizza, pasta and vino. Use the unique link below and get a FREE £10 voucher when you first visit. Plus, if you use your unique code, I get a treat too. Saluti!</textarea>
+                        <textarea id="sharingMessage" class="form-control js-copytextarea" rows="4">Discover Prezzo – the best Italian dining restaurant on the High street for pizza, pasta and vino. Use the unique link below and get a FREE £10 voucher when you first visit. Plus, if you use your unique code, I get a treat too. Saluti!</textarea>
                         <br>
                         <ul class="list-inline position-center">
                             <li>
                                 <div data-href="https://www.prezzorestaurants.co.uk/" data-layout="button" data-size="small"
                                     data-mobile-iframe="true">
-                                    <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.prezzorestaurants.co.uk%2F&amp;src=sdkpreparse">
+                                    <a class="fb-xfbml-parse-ignore" target="_blank" href="https://facebook.com/" id="shareFacebook">
                                         <img class="icon-size" src="img/img-for-prezzo/FB-f-Logo__blue_144.png" alt="">
                                     </a>
                                 </div>
                             </li>
                             <li>
-                                <a class="twitter-share-button" href="https://twitter.com/intent/tweet?url=https://www.prezzorestaurants.co.uk/&text=Welcome to prezzo -"
-                                    data-size="large" target="_blank">
+                                <a class="twitter-share-button" target="_blank" href="https://twitter.com/" id="shareTwitter"
+                                    data-size="large">
                                     <img class="icon-size" src="img/img-for-prezzo/Twitter_Logo_WhiteOnBlue.png" alt="">
                                 </a>
                             </li>
                             <li>
-                                <a href="" id="shareGmail">
+                                <a target="_blank" href="https://mail.google.com/mail" id="shareGmail">
                                     <img class="icon-size icon-view" src="img/img-for-prezzo/logo_gmail_128px.png" alt="">
                                 </a>
                             </li>
                             <li>
-                                <a target="_blank" href="http://profitquery.com/add-to/yahoo-mail/?title=prezzo&description=prezzo restaurants&url=www.prezzorestaurants.co.uk">
+                                <a target="_blank" href="https://mail.yahoo.com" id="shareYahoo">
                                     <img class="icon-size icon-view" src="img/img-for-prezzo/if_yahoo_294646.png" alt="">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://api.addthis.com/oexchange/0.8/forward/hotmail/offer?url=www.prezzorestaurants.co.uk&title=Prezzo&text=prezzo restaurant- &ct=1"
-                                    target="_blank">
+                                <a target="_blank" href="https://outlook.live.com/mail" id="shareOutlook">
                                     <img class="icon-size" src="img/img-for-prezzo/Outlook-icon.png" alt="">
                                 </a>
                             </li>
                             <li>
                                 <div class="social-button js-textareacopybtn btn-tooltip-area size-text" data-toggle="tooltip-area"
-                                    data-clipboard-action="copy" data-clipboard-target="#txtar" title="Сopied!">
+                                    data-clipboard-action="copy" data-clipboard-target="#sharingMessage" title="Сopied!">
                                     <strong>Copy Text</strong>
                                 </div>
                             </li>
@@ -301,15 +300,62 @@
 <script type="text/javascript" src="js/one-page.js"></script>
 
 <script type="text/javascript">
+    // Outlook email
+    $('#shareOutlook').on('click', function () {
+        var body = $('#sharingMessage').val();
+        // Replace new lines with spaces
+        body = body.replace(/[\n\r]/g, ' ');
+        $(this).attr('href', 'https://outlook.com/owa/?path=/mail/action/compose&subject=' + 'Discover Prezzo!&body=' + encodeURIComponent(body));
+    });
+</script>
+<script type="text/javascript">
+    // Yahoo email
+    $('#shareYahoo').on('click', function () {
+        var body = $('#sharingMessage').val();
+        $(this).attr('href', 'https://compose.mail.yahoo.com/?subject=' + 'Discover%20Prezzo!&body=' + encodeURIComponent(body));
+    });
+</script>
+<script type="text/javascript">
     // Gmail email
     $('#shareGmail').on('click', function () {
-        var body = $('#txtar').val();
+        var body = $('#sharingMessage').val();
         // Replace new lines with spaces
         body = body.replace(/[\n\r]/g, ' ');
         $(this).attr('href', 'https://mail.google.com/mail/?view=cm&ui=2&tf=0&fs=1&su=Discover%20Prezzo!&body=' + encodeURIComponent(body));
     });
 </script>
+<script type="text/javascript">
+    // Facebook post
+    function shareOnFacebook() {
+        var img = 'http://pi-datacapture-prezzo-userjourneys-test.azurewebsites.net/referafriend/images/prezzo-raf-facebook.jpg';
+        var desc = "Here is £10 off the best Italian dining restaurant on the High street for pizza, pasta and vino. Use the unique link below and get a FREE £10 voucher when you first visit. Plus, if you use your unique code, I get a treat too. Saluti!";
+        var title = 'Discover Prezzo!';
+        var link = 'https://offers.prezzorestaurants.co.uk/default.aspx?ReferalCode=RUHMPWAQMT';
 
+        // Open FB share popup
+        FB.ui({
+            method: 'share_open_graph',
+            action_type: 'og.shares',
+            action_properties: JSON.stringify({
+                object: {
+                    'og:url': link,
+                    'og:title': title,
+                    'og:description': desc,
+                    'og:image': img
+                }
+            })
+        },
+            function (response) {
+                // Action after response
+            });
+    }
+</script>
+<script type="text/javascript">
+    // Twitter tweet
+    $('#shareTwitter').on('click', function () {
+        $(this).attr('href', 'https://twitter.com/share?text=' + 'Discover%20Prezzo%20-%20the%20best%20Italian%20restaurant%20for%20pizza,%20pasta%20%26%20vino!%20Use%20this%20unique%20link%20for%20%C2%A310%20off%20your%20first%20visit.&url=' + 'https%3A%2F%2Foffers.prezzorestaurants.co.uk%2Fdefault.aspx%3FReferalCode%3DRUHMPWAQMT');
+    });
+</script>
 <script>
     var clipboard1 = new ClipboardJS('.btn-tooltip-input');
     var clipboard2 = new ClipboardJS('.btn-tooltip-inputD');
