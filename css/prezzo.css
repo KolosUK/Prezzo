@@ -129,6 +129,7 @@ i{
 
 .container-white{
 	background-color: white;
+	z-index: 1;
 }
 
 hr{
