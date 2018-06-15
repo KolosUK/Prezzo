@@ -2421,6 +2421,7 @@ a.navigation__item__filter:hover {
   height: 0;
   bottom: 0;
   margin-bottom: 0;
+  overflow-y: hidden;
 }
 
 /* line 1342, ../../src/styles/shared/_navigation.scss */
@@ -2428,6 +2429,7 @@ a.navigation__item__filter:hover {
   display: block;
   margin-left: -36px;
   z-index: 20;
+  overflow-y: hidden;
 }
 
 /* line 1347, ../../src/styles/shared/_navigation.scss */
