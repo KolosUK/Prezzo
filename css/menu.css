@@ -2404,7 +2404,7 @@ a.navigation__item__filter:hover {
 
 /* line 1321, ../../src/styles/shared/_navigation.scss */
 .navigation--primary .navigation-items {
-  position: fixed;
+  position: absolute;
   background-color: #fff;
   margin-left: -4%;
   width: 70vw;
@@ -2432,7 +2432,6 @@ a.navigation__item__filter:hover {
 
 /* line 1347, ../../src/styles/shared/_navigation.scss */
 .menu-open .navigation--primary .bg {
-  position: fixed;
   z-index: 5;
   width: 100vw;
   height: 100vh;
