@@ -2396,8 +2396,12 @@ a.navigation__item__filter:hover {
 }
 
 body.menu-open {
-  overflow-y: hidden;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
 }
+
 
 /* line 1321, ../../src/styles/shared/_navigation.scss */
 .navigation--primary .navigation-items {
@@ -2418,7 +2422,6 @@ body.menu-open {
   height: 0;
   bottom: 0;
   margin-bottom: 0;
-  overflow-y: hidden;
 }
 
 /* line 1342, ../../src/styles/shared/_navigation.scss */
@@ -2426,7 +2429,6 @@ body.menu-open {
   display: block;
   margin-left: -36px;
   z-index: 20;
-  overflow-y: hidden;
 }
 
 /* line 1347, ../../src/styles/shared/_navigation.scss */
