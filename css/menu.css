@@ -2395,11 +2395,8 @@ a.navigation__item__filter:hover {
   width: 130px;
 }
 
-@media (max-width: 976px) {
-  /* line 1312, ../../src/styles/shared/_navigation.scss */
-  body.menu-open {
-    overflow: hidden;
-  }
+body.menu-open {
+  overflow-y: hidden;
 }
 
 /* line 1321, ../../src/styles/shared/_navigation.scss */
