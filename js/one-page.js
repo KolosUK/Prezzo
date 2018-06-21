@@ -1,9 +1,8 @@
 var copyTextareaBtn = document.querySelector('.js-textareacopybtn');
 copyTextareaBtn.addEventListener('click', function(event) {
-  var copyTextarea = document.querySelector('.js-copytextarea');
-  copyTextarea.select();
-        $("[data-toggle='tooltip-area']").tooltip('toggle');
-        setTimeout(function(){ $("[data-toggle='tooltip-area']").tooltip('destroy');}, 1500)
+  var copyTextarea = $(".js-copytextarea").text();
+       $("[data-toggle='tooltip-area']").tooltip('toggle');
+    setTimeout(function(){ $("[data-toggle='tooltip-area']").tooltip('destroy');}, 1500)
 });
 var copyInputBtn = document.querySelector('.js-inputcopybtn');
 copyInputBtn.addEventListener('click', function(event) {

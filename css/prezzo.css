@@ -260,8 +260,16 @@ button {
 
 .js-textareacopybtn {
 	cursor: pointer;
+	display: block;
 }
 
+.copy-button > a{
+	text-decoration: none;
+}
+
+.copy-button > a:hover{
+	color: white;
+}
 .size-text{
 	padding-top: 3px;
 	color: white;
