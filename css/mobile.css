@@ -10,7 +10,7 @@
 	}
 
 	.logoName {
-    	margin-top: -17%;
+    	margin-top: 0;
 	}
 
 	.advertising {
@@ -34,7 +34,7 @@
     	margin-top: -7%;
 	}
 
-	.logoPosition > img {
+	.logoPosition > .logoPrezzo {
 		height: 180px;
 	}
 
@@ -70,7 +70,7 @@
 @media screen and (max-width: 680px){
 
 	.logoName {
-    	margin-top: -23%;
+    	margin-top: 0;
 	}
 
 	.advertising {
@@ -93,7 +93,7 @@
 @media screen and (max-width: 550px) {
 
 	.logoName {
-    	margin-top: -27%;
+    	margin-top: 0;
 	}
 
 	.logoPrezzo {
@@ -107,7 +107,7 @@
 @media screen and (max-width: 450px) { 
 
 	.logoName {
-   		margin-top: -32%;
+   		margin-top: 0;
 	}
 
 	.logoPrezzo {
@@ -140,7 +140,7 @@
 	}
 
 	.logoName {
-   		margin-top: -38%;
+   		margin-top: 0;
 	}
 
 	.icon-size {
@@ -174,7 +174,7 @@
 @media screen and (max-width: 350px) { 
 
 	.logoName {
-    	margin-top: -44%;
+    	margin-top: 0;
 	}
 
 	.logoPrezzo {

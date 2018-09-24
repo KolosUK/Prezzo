@@ -1,5 +1,5 @@
 body{
-	background-image: url(../img/img-for-prezzo/background-slice.jpg);
+	/**background-image: url(../img/img-for-prezzo/background-slice.jpg);**/
 	font-family: 'UniversLTW01-47LightCn', helvetica, arial, sans-serif;
 	height: 100%;
 }
@@ -64,7 +64,7 @@ font-family: 'UniversLTW01-47LightCn', helvetica, arial, sans-serif;
 }
  
 .social{
-	background: #059CA2;
+	background: #66cc99;
 	padding: 10px;
 	color: white;
 }
@@ -111,6 +111,7 @@ div > a > img {
 .btn-copy:hover {
 	background-color: black;
 }
+
 .container-social{
 	background-color: #009999;
     padding: 15px;
@@ -146,7 +147,7 @@ hr{
 }
 
 .specialColor{
-	color: #059CA2;
+	color: #66cc99;
 }
 li > img {
 	width: 30px;
@@ -304,7 +305,7 @@ footer{
 }
 
 .logoName{
-    margin-top: -105px;
+    margin-top: 70px;
 }
 
 .logoPosition{
@@ -380,7 +381,7 @@ footer{
 }
 
 .logoName{
-    margin-top: -11.6%;
+    margin-top: 80px;
 }
 
 .form-control {
