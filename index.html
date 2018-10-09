@@ -82,8 +82,8 @@
                 <input data-name="hiddenLong" id="txtGeocodeLongitude" name="txtGeocodeLongitude" type="hidden" value="0">
                 <input data-name="hiddenLat" id="txtGeocodeLatitude" name="txtGeocodeLatitude" type="hidden" value="0">
 
-                <form action="/FindaPrezzoBlock/Index" class="find-and-book__form" data-name="js-geolocation-header-form" id="frmFindaPrezzo"
-                    method="post" hidden="">
+                <form action="/FindaPrezzoBlock/Index" class="find-and-book__form" data-name="js-geolocation-header-form"
+                    id="frmFindaPrezzo" method="post" hidden="">
                     <div class="find-and-book__search">
 
                         <label for="txtAddress" class="find-and-book__label">
@@ -91,8 +91,9 @@
                         </label>
 
 
-                        <input class="find-and-book__address-field" data-name="js-geolocation" id="txtAddress" name="txtAddress" onkeyup="FindCoordinates(this.className);"
-                            placeholder="Enter your postcode or town" type="text" value="" autocomplete="off">
+                        <input class="find-and-book__address-field" data-name="js-geolocation" id="txtAddress" name="txtAddress"
+                            onkeyup="FindCoordinates(this.className);" placeholder="Enter your postcode or town" type="text"
+                            value="" autocomplete="off">
 
 
                         <button type="submit" id="btnSearch" formmethod="post" role="button" class="find-and-book_go-btn">Go</button>
@@ -108,13 +109,16 @@
                         </div>
 
                         <input data-name="hiddenCommand" id="command" name="command" type="hidden" value="jsNotRun">
-                        <input data-name="hiddenLong" id="txtGeocodeLongitude" name="txtGeocodeLongitude" type="hidden" value="0">
-                        <input data-name="hiddenLat" id="txtGeocodeLatitude" name="txtGeocodeLatitude" type="hidden" value="0">
+                        <input data-name="hiddenLong" id="txtGeocodeLongitude" name="txtGeocodeLongitude" type="hidden"
+                            value="0">
+                        <input data-name="hiddenLat" id="txtGeocodeLatitude" name="txtGeocodeLatitude" type="hidden"
+                            value="0">
                     </div>
                 </form>
 
                 <div class="desktop-hidden marker">
-                    <a href="https://www.prezzorestaurants.co.uk/find-and-book/search/" class="fa fa-map-marker" aria-hidden="true"></a>
+                    <a href="https://www.prezzorestaurants.co.uk/find-and-book/search/" class="fa fa-map-marker"
+                        aria-hidden="true"></a>
                 </div>
                 <ul class="navigation-items desktop-hidden">
                     <li class="navigation__item ">
@@ -142,7 +146,8 @@
                         <i class="fa fa-map-marker get-location" aria-hidden="true"></i>
                         <b id="current-location"></b>
                         -
-                        <a href="https://www.prezzorestaurants.co.uk/find-and-book/search/" class="get-location location-button">Get my location</a>
+                        <a href="https://www.prezzorestaurants.co.uk/find-and-book/search/" class="get-location location-button">Get
+                            my location</a>
                     </li>
                 </ul>
                 <div class="bg"></div>
@@ -183,8 +188,8 @@
                     <div class="input-group">
                         <input id="btn1" type="text" class="form-control copy-input js-copyinput" />
                         <span class="input-group-btn">
-                            <button class="btn btn-copy btn-tooltip-input js-inputcopybtn" data-toggle="tooltip-input" data-clipboard-action="copy" data-clipboard-target="#btn1"
-                                title="Сopied!" type="button">
+                            <button class="btn btn-copy btn-tooltip-input js-inputcopybtn" data-toggle="tooltip-input"
+                                data-clipboard-action="copy" data-clipboard-target="#btn1" title="Сopied!" type="button">
                                 <i class="fa fa-link fa-2x"></i>
                             </button>
                         </span>
@@ -218,18 +223,17 @@
                     <div class="social position-center">
                         <h4>HOW DO I SHARE?</h4>
                         <br>
-                        <p>We've created a handy template that you can forward to a friend or update as you wish. Send via any
-                            social or email channel or simply copy & paste your unique sharing link & send to your friends!</p>
+                        <p>We've created a handy template that you can forward to a friend or update as you wish. Send
+                            via any
+                            social or email channel or simply copy & paste your unique sharing link & send to your
+                            friends!</p>
                         <textarea class="form-control js-copytextarea" id="sharingMessage" rows="5">Here is &#xA3;10 off the best Italian dining restaurant on the High street for pizza, pasta and vino. Use the unique link below and get a FREE &#xA3;10 voucher when you first visit. Plus, if you use your unique code, I get a treat too. Saluti!&#xD;&#xD;https://offers.prezzorestaurants.co.uk/default.aspx?ReferalCode=RUHMPWAQMT</textarea>
                         <br>
                         <ul class="list-inline position-center">
                             <li>
                                 <div data-href="https://www.prezzorestaurants.co.uk/" data-layout="button" data-size="small"
-                                    data-mobile-iframe="true">
-                                    <a class="fb-xfbml-parse-ignore" target="_blank" href="https://facebook.com/" id="shareFacebook">
-                                        <img class="icon-size" src="img/img-for-prezzo/FB-f-Logo__blue_144.png" alt="">
-                                    </a>
-                                </div>
+                                    data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.prezzorestaurants.co.uk%2F&amp;src=sdkpreparse">
+                                        <img class="icon-size" src="img/img-for-prezzo/FB-f-Logo__blue_144.png" alt=""></a></div>
                             </li>
                             <li>
                                 <a class="twitter-share-button" target="_blank" href="https://twitter.com/" id="shareTwitter"
@@ -261,7 +265,7 @@
                                 <a class="social-button js-textareacopybtn btn-tooltip-area size-text" data-toggle="tooltip-area"
                                     data-clipboard-action="copy" data-clipboard-target="#sharingMessage" title="Сopied!">
                                     <strong>Copy Text</strong>
-                            </a>
+                                </a>
                             </li>
                         </ul>
                         <br>
@@ -271,8 +275,8 @@
                     <div class="input-group">
                         <input id="btn2" type="text" class="form-control copy-input js-copyinputD" />
                         <span class="input-group-btn">
-                            <button class="btn btn-copy js-inputcopybtnD btn-tooltip-inputD" data-toggle="tooltip-inputD" data-clipboard-action="copy"
-                                data-clipboard-target="#btn2" title="Сopied!" type="button">
+                            <button class="btn btn-copy js-inputcopybtnD btn-tooltip-inputD" data-toggle="tooltip-inputD"
+                                data-clipboard-action="copy" data-clipboard-target="#btn2" title="Сopied!" type="button">
                                 <i class="fa fa-link fa-2x"></i>
                             </button>
                         </span>
@@ -285,12 +289,15 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12" style="text-align: center;">
-                            <p class="fontBikoRegular size-footer">For every friend you refer that visits Prezzo you’ll be given a reward. If they are new to our
-                                database you’ll receive £10 off your bill, if they are an existing customer we’ll still send
-                                you £5 off your bill as a reward. There is a minimum spend of £20 on the bill required to
+                            <p class="fontBikoRegular size-footer">For every friend you refer that visits Prezzo you’ll
+                                be given a reward. If they are new to our
+                                database you’ll receive £10 off your bill, if they are an existing customer we’ll still
+                                send
+                                you £5 off your bill as a reward. There is a minimum spend of £20 on the bill required
+                                to
                                 redeem your voucher. Full details can be found in our
-                                <a href="https://www.prezzorestaurants.co.uk/special-pages/refer-a-friend-tcs"
-                                    class="style-link">Terms & Conditions.</a>
+                                <a href="https://www.prezzorestaurants.co.uk/special-pages/refer-a-friend-tcs" class="style-link">Terms
+                                    & Conditions.</a>
                             </p>
                         </div>
                     </div>
